@@ -1,0 +1,26 @@
+# Backend dependencies
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+httpx
+python-dotenv
+
+# Data processing
+pandas
+numpy
+requests
+
+# Vector store and embeddings
+faiss-cpu
+sentence-transformers
+
+# LLM integration
+google-generativeai
+
+# Development tools
+pytest
+pytest-asyncio
+black
+flake8
+mypy

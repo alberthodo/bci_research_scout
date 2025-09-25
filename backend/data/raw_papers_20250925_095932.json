@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2509.20334v1",
+    "title": "Feature Dynamics as Implicit Data Augmentation: A Depth-Decomposed View\n  on Deep Neural Network Generalization",
+    "authors": [
+      "Tianyu Ruan",
+      "Kuo Gai",
+      "Shihua Zhang"
+    ],
+    "abstract": "Why do deep networks generalize well? In contrast to classical generalization\ntheory, we approach this fundamental question by examining not only inputs and\noutputs, but the evolution of internal features. Our study suggests a\nphenomenon of temporal consistency that predictions remain stable when shallow\nfeatures from earlier checkpoints combine with deeper features from later ones.\nThis stability is not a trivial convergence artifact. It acts as a form of\nimplicit, structured augmentation that supports generalization. We show that\ntemporal consistency extends to unseen and corrupted data, but collapses when\nsemantic structure is destroyed (e.g., random labels). Statistical tests\nfurther reveal that SGD injects anisotropic noise aligned with a few principal\ndirections, reinforcing its role as a source of structured variability.\nTogether, these findings suggest a conceptual perspective that links feature\ndynamics to generalization, pointing toward future work on practical surrogates\nfor measuring temporal feature evolution.",
+    "url": "http://arxiv.org/abs/2509.20334v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:23:56+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20334v1",
+      "categories": [
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.20323v1",
+    "title": "A Recovery Guarantee for Sparse Neural Networks",
+    "authors": [
+      "Sara Fridovich-Keil",
+      "Mert Pilanci"
+    ],
+    "abstract": "We prove the first guarantees of sparse recovery for ReLU neural networks,\nwhere the sparse network weights constitute the signal to be recovered.\nSpecifically, we study structural properties of the sparse network weights for\ntwo-layer, scalar-output networks under which a simple iterative hard\nthresholding algorithm recovers these weights exactly, using memory that grows\nlinearly in the number of nonzero weights. We validate this theoretical result\nwith simple experiments on recovery of sparse planted MLPs, MNIST\nclassification, and implicit neural representations. Experimentally, we find\nperformance that is competitive with, and often exceeds, a high-performing but\nmemory-inefficient baseline based on iterative magnitude pruning.",
+    "url": "http://arxiv.org/abs/2509.20323v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:10:48+00:00",
+    "categories": [
+      "cs.LG",
+      "math.OC",
+      "stat.ML"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20323v1",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ]
+    }
+  },
+  {
+    "id": "2509.20311v1",
+    "title": "Graph Variate Neural Networks",
+    "authors": [
+      "Om Roy",
+      "Yashar Moshfeghi",
+      "Keith Smith"
+    ],
+    "abstract": "Modelling dynamically evolving spatio-temporal signals is a prominent\nchallenge in the Graph Neural Network (GNN) literature. Notably, GNNs assume an\nexisting underlying graph structure. While this underlying structure may not\nalways exist or is derived independently from the signal, a temporally evolving\nfunctional network can always be constructed from multi-channel data. Graph\nVariate Signal Analysis (GVSA) defines a unified framework consisting of a\nnetwork tensor of instantaneous connectivity profiles against a stable support\nusually constructed from the signal itself. Building on GVSA and tools from\ngraph signal processing, we introduce Graph-Variate Neural Networks (GVNNs):\nlayers that convolve spatio-temporal signals with a signal-dependent\nconnectivity tensor combining a stable long-term support with instantaneous,\ndata-driven interactions. This design captures dynamic statistical\ninterdependencies at each time step without ad hoc sliding windows and admits\nan efficient implementation with linear complexity in sequence length. Across\nforecasting benchmarks, GVNNs consistently outperform strong graph-based\nbaselines and are competitive with widely used sequence models such as LSTMs\nand Transformers. On EEG motor-imagery classification, GVNNs achieve strong\naccuracy highlighting their potential for brain-computer interface\napplications.",
+    "url": "http://arxiv.org/abs/2509.20311v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T16:44:08+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20311v1",
+      "categories": [
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.20282v1",
+    "title": "On Brinkman flows with curvature-induced phase separation in binary\n  mixtures",
+    "authors": [
+      "Pierluigi Colli",
+      "Gianni Gilardi",
+      "Andrea Signori",
+      "Jürgen Sprekels"
+    ],
+    "abstract": "The mathematical analysis of diffuse-interface models for multiphase flows\nhas attracted significant attention due to their ability to capture complex\ninterfacial dynamics, including curvature effects, within a unified,\nenergetically consistent framework. In this work, we study a novel\nBrinkman-Cahn-Hilliard system, coupling a sixth-order phase-field evolution\nwith a Brinkman-type momentum equation featuring variable shear viscosity. The\nCahn-Hilliard equation includes a nonconservative source term accounting for\nmass exchange, and the velocity equation contains a non divergence-free forcing\nterm. We establish the existence of weak solutions in a divergence-free\nvariational framework, and, in the case of constant mobility and shear\nviscosity, prove uniqueness and continuous dependence on the forcing.\nAdditionally, we analyze the Darcy limit, providing existence results for the\ncorresponding reduced system.",
+    "url": "http://arxiv.org/abs/2509.20282v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T16:15:47+00:00",
+    "categories": [
+      "math.AP"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20282v1",
+      "categories": [
+        "math.AP"
+      ]
+    }
+  },
+  {
+    "id": "2509.20267v1",
+    "title": "Radiation-induced Ionization Effects and Space Mission Requirements for\n  Silicon Photonic Mach-Zehnder Modulators",
+    "authors": [
+      "Kellen P. Arnold",
+      "Joel B. Slaby",
+      "Nathaniel J. Karom",
+      "Anurag R. Veluri",
+      "C. Alex Kaylor",
+      "Andrew L. Sternberg",
+      "Dennis R. Ball",
+      "Ronald D. Schrimpf",
+      "Daniel M. Fleetwood",
+      "Stephen E. Ralph",
+      "Robert A. Reed",
+      "Sharon M. Weiss"
+    ],
+    "abstract": "Photonic integrated circuits have become essential for meeting the growing\nglobal demand for high-capacity information processing and transport. Assessing\ntheir radiation tolerance is essential for deploying systems in radiation prone\nenvironments - including in space, high-energy particle accelerators, and\ndefense radiation testing facilities - where the performance and compactness of\nphotonic integrated circuits are increasingly advantageous. This work\ninvestigates the analog and digital radio frequency electro-optic performance\nof Mach-Zehnder modulators (MZMs) subject to 10-keV X-ray irradiation, which\nmimics cumulative ionization effects in space flight. Silicon photonic MZMs\nserve as excellent exemplars since they are interferometric devices comprised\nof elements common to many integrated photonic circuits. Under standard bias\nconditions, the irradiated MZMs exhibited significantly reduced bandwidth, a\ncorresponding eye closure and baud rate dependent increases in the estimated\nerror rate. The observed performance degradation is attributed to total\nionizing dose effects which leads to hole trapping at the silicon/silicon\ndioxide waveguide interfaces as well as fast traps with energies near the\nconduction band edge. Notably, when MZMs were irradiated with all leads\ngrounded, no radiation sensitivity to the electro-optic response was observed\nhighlighting the importance of testing under standard operating conditions for\nground-based radiation testing as well as on-orbit studies. Understanding the\nradiation induced performance degradation of MZMs and other integrated photonic\ndevices is increasingly important for space and accelerator environments as\nperformance requirements and deployment opportunities increase.",
+    "url": "http://arxiv.org/abs/2509.20267v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T15:59:06+00:00",
+    "categories": [
+      "physics.app-ph"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20267v1",
+      "categories": [
+        "physics.app-ph"
+      ]
+    }
+  },
+  {
+    "id": "2509.19254v1",
+    "title": "Exploring aperiodic, complexity and entropic brain changes during\n  non-ordinary states of consciousness",
+    "authors": [
+      "Victor Oswald",
+      "Karim Jerbi",
+      "Corine Sombrun",
+      "Hamza Abdelhedi",
+      "Annen Jitka",
+      "Charlotte Martial",
+      "Audrey Vanhaudenhuyse",
+      "Olivia Gosseries"
+    ],
+    "abstract": "Non-ordinary states of consciousness (NOC) provide an opportunity to\nexperience highly intense, unique, and perceptually rich subjective states. The\nneural mechanisms supporting these experiences remain poorly understood. This\nstudy examined brain activity associated with a self-induced, substance-free\nNOC known as Auto-Induced Cognitive Trance (AICT). Twenty-seven trained\nparticipants underwent high-density electroencephalography (EEG) recordings\nduring rest and AICT. We analyzed the aperiodic component of the power spectrum\n(1/f), Lempel-Ziv complexity, and sample entropy from five-minute signal\nsegments. A machine learning approach was used to classify rest and AICT,\nidentify discriminative features, and localize their sources. We also compared\nEEG metrics across conditions and assessed whether baseline activity predicted\nthe magnitude of change during AICT. Classification analyses revealed\ncondition-specific differences in spectral exponents, complexity, and entropy.\nThe aperiodic component showed the strongest discriminative power, followed by\nentropy and complexity. Source localization highlighted frontal regions, the\nposterior cingulate cortex, and the left parietal cortex as key contributors to\nthe AICT state. Baseline neural activity in frontal and parietal regions\npredicted individual variability in the transition from rest to AICT. These\nfindings indicate that AICT engages brain regions implicated in rich subjective\nexperiences and provide mechanistic insights into how self-induced trance\nstates influence neural functioning.",
+    "url": "http://arxiv.org/abs/2509.19254v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-23T17:16:14+00:00",
+    "categories": [
+      "q-bio.NC"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.19254v1",
+      "categories": [
+        "q-bio.NC"
+      ]
+    }
+  },
+  {
+    "id": "2509.19403v1",
+    "title": "Online Adaptation via Dual-Stage Alignment and Self-Supervision for\n  Fast-Calibration Brain-Computer Interfaces",
+    "authors": [
+      "Sheng-Bin Duan",
+      "Jian-Long Hao",
+      "Tian-Yu Xiang",
+      "Xiao-Hu Zhou",
+      "Mei-Jiang Gui",
+      "Xiao-Liang Xie",
+      "Shi-Qi Liu",
+      "Zeng-Guang Hou"
+    ],
+    "abstract": "Individual differences in brain activity hinder the online application of\nelectroencephalogram (EEG)-based brain computer interface (BCI) systems. To\novercome this limitation, this study proposes an online adaptation algorithm\nfor unseen subjects via dual-stage alignment and self-supervision. The\nalignment process begins by applying Euclidean alignment in the EEG data space\nand then updates batch normalization statistics in the representation space.\nMoreover, a self-supervised loss is designed to update the decoder. The loss is\ncomputed by soft pseudo-labels derived from the decoder as a proxy for the\nunknown ground truth, and is calibrated by Shannon entropy to facilitate\nself-supervised training. Experiments across five public datasets and seven\ndecoders show the proposed algorithm can be integrated seamlessly regardless of\nBCI paradigm and decoder architecture. In each iteration, the decoder is\nupdated with a single online trial, which yields average accuracy gains of 4.9%\non steady-state visual evoked potentials (SSVEP) and 3.6% on motor imagery.\nThese results support fast-calibration operation and show that the proposed\nalgorithm has great potential for BCI applications.",
+    "url": "http://arxiv.org/abs/2509.19403v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-23T07:38:37+00:00",
+    "categories": [
+      "eess.SP",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.19403v1",
+      "categories": [
+        "eess.SP",
+        "cs.AI",
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.19401v1",
+    "title": "SpellerSSL: Self-Supervised Learning with P300 Aggregation for Speller\n  BCIs",
+    "authors": [
+      "Jiazhen Hong",
+      "Geoff Mackellar",
+      "Soheila Ghane"
+    ],
+    "abstract": "Electroencephalogram (EEG)-based P300 speller brain-computer interfaces\n(BCIs) face three main challenges: low signal-to-noise ratio (SNR), poor\ngeneralization, and time-consuming calibration. We propose SpellerSSL, a\nframework that combines self-supervised learning (SSL) with P300 aggregation to\naddress these issues. First, we introduce an aggregation strategy to enhance\nSNR. Second, to achieve generalization in training, we employ a customized 1D\nU-Net backbone and pretrain the model on both cross-domain and in-domain EEG\ndata. The pretrained model is subsequently fine-tuned with a lightweight\nERP-Head classifier for P300 detection, which adapts the learned\nrepresentations to subject-specific data. Our evaluations on calibration time\ndemonstrate that combining the aggregation strategy with SSL significantly\nreduces the calibration burden per subject and improves robustness across\nsubjects. Experimental results show that SSL learns effective EEG\nrepresentations in both in-domain and cross-domain, with in-domain achieving a\nstate-of-the-art character recognition rate of 94% with only 7 repetitions and\nthe highest information transfer rate (ITR) of 21.86 bits/min on the public\nII-B dataset. Moreover, in-domain SSL with P300 aggregation reduces the\nrequired calibration size by 60% while maintaining a comparable character\nrecognition rate. To the best of our knowledge, this is the first study to\napply SSL to P300 spellers, highlighting its potential to improve both\nefficiency and generalization in speller BCIs and paving the way toward an EEG\nfoundation model for P300 speller BCIs.",
+    "url": "http://arxiv.org/abs/2509.19401v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-23T06:28:44+00:00",
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.19401v1",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.18599v1",
+    "title": "From Noise to Insight: Visualizing Neural Dynamics with Segmented SNR\n  Topographies for Improved EEG-BCI Performance",
+    "authors": [
+      "Eva Guttmann-Flury",
+      "Shan Zhao",
+      "Jian Zhao",
+      "Mohamad Sawan"
+    ],
+    "abstract": "Electroencephalography (EEG)-based wearable brain-computer interfaces (BCIs)\nface challenges due to low signal-to-noise ratio (SNR) and non-stationary\nneural activity. We introduce in this manuscript a mathematically rigorous\nframework that combines data-driven noise interval evaluation with advanced SNR\nvisualization to address these limitations. Analysis of the publicly available\nEye-BCI multimodal dataset demonstrates the method's ability to recover\ncanonical P300 characteristics across frequency bands (delta: 0.5-4 Hz, theta:\n4-7.5 Hz, broadband: 1-15 Hz), with precise spatiotemporal localization of both\nP3a (frontocentral) and P3b (parietal) subcomponents. To the best of our\nknowledge, this is the first study to systematically assess the impact of noise\ninterval selection on EEG signal quality. Cross-session correlations for four\ndifferent choices of noise intervals spanning from early to late pre-stimulus\nphases also indicate that alertness and task engagement states modulate noise\ninterval sensitivity, suggesting broader applications for adaptive BCI systems.\nWhile validated in healthy participants, our results represent a first step\ntowards providing clinicians with an interpretable tool for detecting\nneurophysiological abnormalities and provides quantifiable metrics for system\noptimization.",
+    "url": "http://arxiv.org/abs/2509.18599v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-23T03:38:39+00:00",
+    "categories": [
+      "q-bio.NC",
+      "q-bio.QM"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.18599v1",
+      "categories": [
+        "q-bio.NC",
+        "q-bio.QM"
+      ]
+    }
+  },
+  {
+    "id": "2509.17920v1",
+    "title": "SingLEM: Single-Channel Large EEG Model",
+    "authors": [
+      "Jamiyan Sukhbaatar",
+      "Satoshi Imamura",
+      "Ibuki Inoue",
+      "Shoya Murakami",
+      "Kazi Mahmudul Hassan",
+      "Seungwoo Han",
+      "Ingon Chanpornpakdi",
+      "Toshihisa Tanaka"
+    ],
+    "abstract": "Current deep learning models for electroencephalography (EEG) are often\ntask-specific and depend on large labeled datasets, limiting their\nadaptability. Although emerging foundation models aim for broader\napplicability, their rigid dependence on fixed, high-density multi-channel\nmontages restricts their use across heterogeneous datasets and in\nmissing-channel or practical low-channel settings. To address these\nlimitations, we introduce SingLEM, a self-supervised foundation model that\nlearns robust, general-purpose representations from single-channel EEG, making\nit inherently hardware agnostic. The model employs a hybrid encoder\narchitecture that combines convolutional layers to extract local features with\na hierarchical transformer to model both short- and long-range temporal\ndependencies. SingLEM is pretrained on 71 public datasets comprising over 9,200\nsubjects and 357,000 single-channel hours of EEG. When evaluated as a fixed\nfeature extractor across six motor imagery and cognitive tasks, aggregated\nsingle-channel representations consistently outperformed leading multi-channel\nfoundation models and handcrafted baselines. These results demonstrate that a\nsingle-channel approach can achieve state-of-the-art generalization while\nenabling fine-grained neurophysiological analysis and enhancing\ninterpretability. The source code and pretrained models are available at\nhttps://github.com/ttlabtuat/SingLEM.",
+    "url": "http://arxiv.org/abs/2509.17920v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-22T15:46:58+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.17920v1",
+      "categories": [
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.19385v1",
+    "title": "A Statistical Mixture-of-Experts Framework for EMG Artifact Removal in\n  EEG: Empirical Insights and a Proof-of-Concept Application",
+    "authors": [
+      "Benjamin J. Choi",
+      "Griffin Milsap",
+      "Clara A. Scholl",
+      "Francesco Tenore",
+      "Mattson Ogg"
+    ],
+    "abstract": "Effective control of neural interfaces is limited by poor signal quality.\nWhile neural network-based electroencephalography (EEG) denoising methods for\nelectromyogenic (EMG) artifacts have improved in recent years, current\nstate-of-the-art (SOTA) models perform suboptimally in settings with high\nnoise. To address the shortcomings of current machine learning (ML)-based\ndenoising algorithms, we present a signal filtration algorithm driven by a new\nmixture-of-experts (MoE) framework. Our algorithm leverages three new\nstatistical insights into the EEG-EMG denoising problem: (1) EMG artifacts can\nbe partitioned into quantifiable subtypes to aid downstream MoE classification,\n(2) local experts trained on narrower signal-to-noise ratio (SNR) ranges can\nachieve performance increases through specialization, and (3) correlation-based\nobjective functions, in conjunction with rescaling algorithms, can enable\nfaster convergence in a neural network-based denoising context. We empirically\ndemonstrate these three insights into EMG artifact removal and use our findings\nto create a new downstream MoE denoising algorithm consisting of convolutional\n(CNN) and recurrent (RNN) neural networks. We tested all results on a major\nbenchmark dataset (EEGdenoiseNet) collected from 67 subjects. We found that our\nMoE denoising model achieved competitive overall performance with SOTA ML\ndenoising algorithms and superior lower bound performance in high noise\nsettings. These preliminary results highlight the promise of our MoE framework\nfor enabling advances in EMG artifact removal for EEG processing, especially in\nhigh noise settings. Further research and development will be necessary to\nassess our MoE framework on a wider range of real-world test cases and explore\nits downstream potential to unlock more effective neural interfaces.",
+    "url": "http://arxiv.org/abs/2509.19385v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-21T17:39:56+00:00",
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.19385v1",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.15449v1",
+    "title": "In-Ear Electrode EEG for Practical SSVEP BCI",
+    "authors": [
+      "Surej Mouli",
+      "Ramaswamy Palaniappan",
+      "Emmanuel Molefi",
+      "Ian McLoughlin"
+    ],
+    "abstract": "Steady State Visual Evoked Potential (SSVEP) methods for brain computer\ninterfaces (BCI) are popular due to higher information transfer rate and easier\nsetup with minimal training, compared to alternative methods. With precisely\ngenerated visual stimulus frequency, it is possible to translate brain signals\ninto external actions or signals. Traditionally, SSVEP data is collected from\nthe occipital region using electrodes with or without gel, normally mounted on\na head cap. In this experimental study, we develop an in ear electrode to\ncollect SSVEP data for four different flicker frequencies and compare against\noccipital scalp electrode data. Data from five participants demonstrates the\nfeasibility of in-ear electrode based SSVEP, significantly enhancing the\npracticability of wearable BCI applications.",
+    "url": "http://arxiv.org/abs/2509.15449v1",
+    "doi": "10.3390/technologies8040063",
+    "source": "arxiv",
+    "published_date": "2025-09-18T21:44:34+00:00",
+    "categories": [
+      "cs.HC",
+      "eess.SP"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.15449v1",
+      "categories": [
+        "cs.HC",
+        "eess.SP"
+      ]
+    }
+  },
+  {
+    "id": "2509.15439v1",
+    "title": "Dual-Mode Visual System for Brain-Computer Interfaces: Integrating SSVEP\n  and P300 Responses",
+    "authors": [
+      "Ekgari Kasawala",
+      "Surej Mouli"
+    ],
+    "abstract": "In brain-computer interface (BCI) systems, steady-state visual evoked\npotentials (SSVEP) and P300 responses have achieved widespread implementation\nowing to their superior information transfer rates (ITR) and minimal training\nrequirements. These neurophysiological signals have exhibited robust efficacy\nand versatility in external device control, demonstrating enhanced precision\nand scalability. However, conventional implementations predominantly utilise\nliquid crystal display (LCD)-based visual stimulation paradigms, which present\nlimitations in practical deployment scenarios. This investigation presents the\ndevelopment and evaluation of a novel light-emitting diode (LED)-based dual\nstimulation apparatus designed to enhance SSVEP classification accuracy through\nthe integration of both SSVEP and P300 paradigms. The system employs four\ndistinct frequencies, 7 Hz, 8 Hz, 9 Hz, and 10 Hz, corresponding to forward,\nbackward, right, and left directional controls, respectively. Oscilloscopic\nverification confirmed the precision of these stimulation frequencies.\nReal-time feature extraction was accomplished through the concurrent analysis\nof maximum Fast Fourier Transform (FFT) amplitude and P300 peak detection to\nascertain user intent. Directional control was determined by the frequency\nexhibiting maximal amplitude characteristics. The visual stimulation hardware\ndemonstrated minimal frequency deviation, with error differentials ranging from\n0.15%to 0.20%across all frequencies. The implemented signal processing\nalgorithm successfully discriminated all four stimulus frequencies whilst\ncorrelating them with their respective P300 event markers. Classification\naccuracy was evaluated based on correct task intention recognition. The\nproposed hybrid system achieved a mean classification accuracy of 86.25%,\ncoupled with an average ITR of 42.08 bits per minute (bpm).",
+    "url": "http://arxiv.org/abs/2509.15439v1",
+    "doi": "10.3390/s25061802",
+    "source": "arxiv",
+    "published_date": "2025-09-18T21:25:18+00:00",
+    "categories": [
+      "cs.IR",
+      "cs.AI"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.15439v1",
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ]
+    }
+  },
+  {
+    "id": "2509.09264v1",
+    "title": "Improved Riemannian potato field: an Automatic Artifact Rejection Method\n  for EEG",
+    "authors": [
+      "Davoud Hajhassani",
+      "Quentin Barthélemy",
+      "Jérémie Mattout",
+      "Marco Congedo"
+    ],
+    "abstract": "Electroencephalography (EEG) signal cleaning has long been a critical\nchallenge in the research community. The presence of artifacts can\nsignificantly degrade EEG data quality, complicating analysis and potentially\nleading to erroneous interpretations. While various artifact rejection methods\nhave been proposed, the gold standard remains manual visual inspection by human\nexperts-a process that is time-consuming, subjective, and impractical for\nlarge-scale EEG studies. Existing techniques are often hindered by a strong\nreliance on manual hyperparameter tuning, sensitivity to outliers, and high\ncomputational costs. In this paper, we introduce the improved Riemannian Potato\nField (iRPF), a fast and fully automated method for EEG artifact rejection that\naddresses key limitations of current approaches. We evaluate iRPF against\nseveral state-of-the-art artifact rejection methods, using two publicly\navailable EEG databases, labeled for various artifact types, comprising 226 EEG\nrecordings. Our results demonstrate that iRPF outperforms all competitors\nacross multiple metrics, with gains of up to 22% in recall, 102% in\nspecificity, 54% in precision, and 24% in F1-score, compared to Isolation\nForest, Autoreject, Riemannian Potato, and Riemannian Potato Field,\nrespectively. Statistical analysis confirmed the significance of these\nimprovements (p < 0.001) with large effect sizes (Cohen's d > 0.8) in most\ncomparisons. Additionally, on a typical EEG recording iRPF performs artifact\ncleaning in under 8 milliseconds per epoch using a standard laptop,\nhighlighting its efficiency for large-scale EEG data processing and real-time\napplications. iRPF offers a robust and data-driven artifact rejection solution\nfor high-quality EEG pre-processing in brain-computer interfaces and clinical\nneuroimaging applications.",
+    "url": "http://arxiv.org/abs/2509.09264v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-11T08:49:31+00:00",
+    "categories": [
+      "eess.SP"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.09264v1",
+      "categories": [
+        "eess.SP"
+      ]
+    }
+  },
+  {
+    "id": "2508.14344v1",
+    "title": "ISCA: A Framework for Interview-Style Conversational Agents",
+    "authors": [
+      "Charles Welch",
+      "Allison Lahnala",
+      "Vasudha Varadarajan",
+      "Lucie Flek",
+      "Rada Mihalcea",
+      "J. Lomax Boyd",
+      "João Sedoc"
+    ],
+    "abstract": "We present a low-compute non-generative system for implementing\ninterview-style conversational agents which can be used to facilitate\nqualitative data collection through controlled interactions and quantitative\nanalysis. Use cases include applications to tracking attitude formation or\nbehavior change, where control or standardization over the conversational flow\nis desired. We show how our system can be easily adjusted through an online\nadministrative panel to create new interviews, making the tool accessible\nwithout coding. Two case studies are presented as example applications, one\nregarding the Expressive Interviewing system for COVID-19 and the other a\nsemi-structured interview to survey public opinion on emerging neurotechnology.\nOur code is open-source, allowing others to build off of our work and develop\nextensions for additional functionality.",
+    "url": "http://arxiv.org/abs/2508.14344v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-08-20T01:38:01+00:00",
+    "categories": [
+      "cs.CL"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2508.14344v1",
+      "categories": [
+        "cs.CL"
+      ]
+    }
+  },
+  {
+    "id": "2508.05963v1",
+    "title": "Bionic Vision as Neuroadaptive XR: Closed-Loop Perceptual Interfaces for\n  Neurotechnology",
+    "authors": [
+      "Michael Beyeler"
+    ],
+    "abstract": "Visual neuroprostheses are commonly framed as technologies to restore natural\nsight to people who are blind. In practice, they create a novel mode of\nperception shaped by sparse, distorted, and unstable input. They resemble early\nextended reality (XR) headsets more than natural vision, streaming video from a\nhead-mounted camera to a neural \"display\" with under 1000 pixels, limited field\nof view, low refresh rates, and nonlinear spatial mappings. No amount of\nresolution alone will make this experience natural. This paper proposes a\nreframing: bionic vision as neuroadaptive XR. Rather than replicating natural\nsight, the goal is to co-adapt brain and device through a bidirectional\ninterface that responds to neural constraints, behavioral goals, and cognitive\nstate. By comparing traditional XR, current implants, and proposed\nneuroadaptive systems, it introduces a new design space for inclusive,\nbrain-aware computing. It concludes with research provocations spanning\nencoding, evaluation, learning, and ethics, and invites the XR community to\nhelp shape the future of sensory augmentation.",
+    "url": "http://arxiv.org/abs/2508.05963v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-08-08T02:50:51+00:00",
+    "categories": [
+      "cs.ET",
+      "cs.HC"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2508.05963v1",
+      "categories": [
+        "cs.ET",
+        "cs.HC"
+      ]
+    }
+  },
+  {
+    "id": "2507.23474v1",
+    "title": "Finger Force Decoding from Motor Units Activity on Neuromorphic Hardware",
+    "authors": [
+      "Farah Baracat",
+      "Giacomo Indiveri",
+      "Elisa Donati"
+    ],
+    "abstract": "Accurate finger force estimation is critical for next-generation\nhuman-machine interfaces. Traditional electromyography (EMG)-based decoding\nmethods using deep learning require large datasets and high computational\nresources, limiting their use in real-time, embedded systems. Here, we propose\na novel approach that performs finger force regression using spike trains from\nindividual motor neurons, extracted from high-density EMG. These biologically\ngrounded signals drive a spiking neural network implemented on a mixed-signal\nneuromorphic processor. Unlike prior work that encodes EMG into events, our\nmethod exploits spike timing on motor units to perform low-power, real-time\ninference. This is the first demonstration of motor neuron-based continuous\nregression computed directly on neuromorphic hardware. Our results confirm\naccurate finger-specific force prediction with minimal energy use, opening new\npossibilities for embedded decoding in prosthetics and wearable\nneurotechnology.",
+    "url": "http://arxiv.org/abs/2507.23474v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-07-31T11:55:02+00:00",
+    "categories": [
+      "cs.NE"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2507.23474v1",
+      "categories": [
+        "cs.NE"
+      ]
+    }
+  }
+]

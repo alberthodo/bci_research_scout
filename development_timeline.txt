@@ -1,0 +1,305 @@
+RAG-based BCI Literature Scout - Scrum Development Timeline
+==========================================================
+
+Project Overview:
+A lightweight RAG demo that retrieves recent BCI/Neurotech papers and produces concise, 
+evidence-backed trend summaries with clickable citations and reproducible query snapshots.
+
+Tech Stack:
+- React frontend | FastAPI backend | FAISS vector store | SentenceTransformers embeddings | Gemini LLM for summarization
+
+================================================================================
+SPRINT 1: PROJECT FOUNDATION & CORE INFRASTRUCTURE (Week 1)
+================================================================================
+
+Epic: Set up development environment and basic project structure
+
+FEATURE 1.1: Project Setup & Environment
+- Initialize Git repository with proper .gitignore
+- Set up Python virtual environment
+- Create project structure (frontend/, backend/, data/, docs/)
+- Configure development tools (linting, formatting)
+- Set up basic CI/CD pipeline
+
+FEATURE 1.2: Backend Foundation
+- Initialize FastAPI project structure
+- Set up basic API endpoints framework
+- Configure environment variables and settings
+- Create basic error handling and logging
+- Set up file-based metadata storage (JSON/pickle)
+
+FEATURE 1.3: Frontend Foundation
+- Initialize React project with Vite
+- Set up Tailwind CSS configuration
+- Create basic component structure
+- Set up routing and state management
+- Configure build and deployment pipeline
+
+ACCEPTANCE CRITERIA:
+- Project builds and runs locally
+- Basic API endpoints respond
+- Frontend displays basic UI
+- Development environment is fully configured
+
+================================================================================
+SPRINT 2: DATA PIPELINE & VECTOR STORE SETUP (Week 2)
+================================================================================
+
+Epic: Build data ingestion and vector storage capabilities
+
+FEATURE 2.1: Data Source Integration
+- Implement arXiv API integration
+- Implement PubMed API integration
+- Implement Semantic Scholar API integration
+- Create data fetching scripts for BCI/neurotech papers
+- Build data validation and cleaning pipeline
+
+FEATURE 2.2: Vector Store Implementation
+- Set up FAISS vector database
+- Implement embedding generation (SentenceTransformers)
+- Create document indexing pipeline
+- Build vector search functionality
+- Implement metadata storage and retrieval
+
+FEATURE 2.3: Data Processing Pipeline
+- Create document preprocessing (abstracts, metadata extraction)
+- Implement text chunking and cleaning
+- Build batch processing for large datasets
+- Create data quality checks and validation
+- Implement incremental indexing
+
+ACCEPTANCE CRITERIA:
+- Can fetch and process 200+ BCI papers from APIs
+- Vector store is populated with embeddings
+- Search returns relevant documents
+- Data pipeline is automated and reliable
+
+================================================================================
+SPRINT 3: RAG ENGINE & LLM INTEGRATION (Week 3)
+================================================================================
+
+Epic: Implement core RAG functionality and LLM integration
+
+FEATURE 3.1: Retrieval System
+- Implement semantic search with reranking
+- Add recency and citation count filtering
+- Create top-k document retrieval
+- Implement query expansion and optimization
+- Build retrieval quality metrics
+
+FEATURE 3.2: LLM Integration
+- Set up Gemini API integration
+- Create prompt templates for trend summarization
+- Implement claim extraction with citations
+- Build confidence scoring system
+- Create BibTeX generation functionality
+
+FEATURE 3.3: Core RAG Pipeline
+- Implement end-to-end query processing
+- Create evidence extraction from documents
+- Build provenance tracking system
+- Implement reproducibility snapshot generation
+- Add conservative assistant mode
+
+ACCEPTANCE CRITERIA:
+- Query returns comprehensive trend summaries
+- All claims have proper citations and evidence
+- Reproducibility snapshots are generated
+- LLM responses are consistent and accurate
+
+================================================================================
+SPRINT 4: BASIC FRONTEND & SEARCH INTERFACE (Week 4)
+================================================================================
+
+Epic: Create user interface for search and results display
+
+FEATURE 4.1: Search Interface
+- Build search bar with topic input
+- Add date range selection
+- Implement source toggles (arXiv/PubMed)
+- Create search form validation
+- Add loading states and error handling
+
+FEATURE 4.2: Results Display
+- Create results pane layout
+- Display trend summary bullets
+- Show key claims with confidence meters
+- Implement clickable citations
+- Add evidence snippet display
+
+FEATURE 4.3: Basic Export Features
+- Implement BibTeX export
+- Add copy TL;DR functionality
+- Create snapshot saving
+- Build export button components
+- Add download functionality
+
+ACCEPTANCE CRITERIA:
+- Users can search and get results
+- Results are clearly displayed with citations
+- Export functions work correctly
+- Interface is responsive and intuitive
+
+================================================================================
+SPRINT 5: ADVANCED FEATURES & VISUALIZATIONS (Week 5)
+================================================================================
+
+Epic: Add advanced visualization and interaction features
+
+FEATURE 5.1: Timeline Visualization
+- Create papers per year timeline chart
+- Implement keyword trend visualization
+- Add interactive timeline controls
+- Build temporal filtering
+- Create timeline export functionality
+
+FEATURE 5.2: Cluster Explorer
+- Implement UMAP/t-SNE clustering
+- Create interactive cluster map
+- Add hover effects for keywords
+- Build cluster detail views
+- Implement representative paper selection
+
+FEATURE 5.3: Advanced UI Features
+- Add "Show sources" detailed view
+- Implement prompt transparency display
+- Create reproducibility badge
+- Add demo mode toggle
+- Build advanced filtering options
+
+ACCEPTANCE CRITERIA:
+- Timeline visualizations are interactive and informative
+- Cluster explorer provides meaningful insights
+- Advanced features enhance user experience
+- All visualizations are responsive and performant
+
+================================================================================
+SPRINT 6: POLISH, TESTING & DEMO PREPARATION (Week 6)
+================================================================================
+
+Epic: Final polish, testing, and demo preparation
+
+FEATURE 6.1: Testing & Quality Assurance
+- Write unit tests for core functionality
+- Implement integration tests
+- Add end-to-end testing
+- Perform performance optimization
+- Conduct security review
+
+FEATURE 6.2: Documentation & Demo
+- Create comprehensive README
+- Write API documentation
+- Record demo video
+- Create example queries and outputs
+- Build portfolio case study
+
+FEATURE 6.3: Deployment & Final Polish
+- Set up production deployment
+- Configure monitoring and logging
+- Add error tracking
+- Implement caching for performance
+- Final UI/UX polish and bug fixes
+
+ACCEPTANCE CRITERIA:
+- All tests pass
+- Application is deployed and accessible
+- Documentation is complete
+- Demo is ready for presentation
+- Code quality meets standards
+
+================================================================================
+KEY TECHNICAL MILESTONES
+================================================================================
+
+Week 1: Development environment ready
+Week 2: Data pipeline operational with 200+ papers
+Week 3: RAG engine producing quality summaries
+Week 4: Basic search interface functional
+Week 5: Advanced visualizations complete
+Week 6: Production-ready demo deployed
+
+================================================================================
+RISK MITIGATION STRATEGIES
+================================================================================
+
+Data Quality:
+- Start with smaller datasets, validate early
+- Implement data quality checks and validation
+- Create fallback mechanisms for API failures
+
+API Limits:
+- Implement rate limiting and caching
+- Use multiple data sources for redundancy
+- Cache frequently accessed data
+
+LLM Costs:
+- Use efficient prompting and caching
+- Implement response caching
+- Optimize token usage
+
+Performance:
+- Optimize vector search algorithms
+- Implement frontend rendering optimization
+- Use lazy loading for large datasets
+
+User Experience:
+- Regular testing and feedback loops
+- Implement progressive loading
+- Add comprehensive error handling
+
+================================================================================
+DELIVERABLES CHECKLIST
+================================================================================
+
+Technical Deliverables:
+□ Live demo (GitHub Pages or deployed)
+□ Repository with complete codebase
+□ README.md with setup instructions
+□ Demo video or GIF
+□ Docker-compose.yml (optional)
+□ Examples/queries.json with sample data
+□ API documentation
+□ Unit and integration tests
+
+Portfolio Deliverables:
+□ Single-page case study (PDF)
+□ Elevator pitch (30 seconds)
+□ Technical architecture diagram
+□ Performance metrics and benchmarks
+□ Future roadmap and extensions
+
+Demo Preparation:
+□ 3-5 example queries with expected outputs
+□ Offline demo mode for presentations
+□ Reproducibility snapshots for reviewers
+□ Clear value proposition explanation
+□ Technical depth demonstration
+
+================================================================================
+SUCCESS METRICS
+================================================================================
+
+Technical Metrics:
+- Response time < 3 seconds for queries
+- 95%+ uptime for demo
+- 200+ papers indexed and searchable
+- 90%+ test coverage
+- Zero critical security vulnerabilities
+
+User Experience Metrics:
+- Intuitive search interface (no training needed)
+- Clear, cited results with evidence
+- Export functionality works flawlessly
+- Visualizations load quickly and are interactive
+- Demo runs smoothly without technical issues
+
+Research Value Metrics:
+- Accurate trend summaries with proper citations
+- Reproducible results with snapshots
+- Evidence-backed claims with confidence scores
+- Useful for BCI literature triage
+- Demonstrates scientific rigor
+
+================================================================================
+END OF TIMELINE
+================================================================================

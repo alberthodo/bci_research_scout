@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Google-inspired minimalistic styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  color: #202124;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Google-style button */
+.btn-primary {
+  background-color: #1a73e8;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+}
+
+.btn-primary:hover {
+  background-color: #1557b0;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+
+.btn-primary:active {
+  background-color: #1557b0;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+}
+
+.btn-secondary {
+  background-color: #f8f9fa;
+  color: #3c4043;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #dadce0;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #f1f3f4;
+  border-color: #dadce0;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+}
+
+/* Google-style input */
+.input-field {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 1px solid #dadce0;
+  border-radius: 24px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  background-color: #ffffff;
+}
+
+.input-field:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
+
+.input-field:hover {
+  border-color: #5f6368;
+  box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
+
+/* Google-style card */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+  border: 1px solid #dadce0;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+
+/* Google-style typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: #202124;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* Google-style colors */
+.text-primary {
+  color: #1a73e8;
+}
+
+.text-secondary {
+  color: #5f6368;
+}
+
+.text-success {
+  color: #137333;
+}
+
+.text-warning {
+  color: #ea8600;
+}
+
+.text-error {
+  color: #d93025;
+}
+
+/* Google-style spacing */
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.space-y-8 > * + * {
+  margin-top: 2rem;
+}
+
+/* Google-style animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Google-style focus states */
+.focus-ring:focus {
+  outline: 2px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+/* Google-style loading states */
+.loading-shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

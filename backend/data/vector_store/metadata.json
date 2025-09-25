@@ -1,0 +1,173 @@
+[
+  {
+    "id": "2509.20311v1",
+    "title": "Graph Variate Neural Networks",
+    "authors": [
+      "Om Roy",
+      "Yashar Moshfeghi",
+      "Keith Smith"
+    ],
+    "abstract": "Modelling dynamically evolving spatio-temporal signals is a prominent challenge in the Graph Neural Network (GNN) literature. Notably, GNNs assume an existing underlying graph structure. While this underlying structure may not always exist or is derived independently from the signal, a temporally evolving functional network can always be constructed from multi-channel data. Graph Variate Signal Analysis (GVSA) defines a unified framework consisting of a network tensor of instantaneous connectivity profiles against a stable support usually constructed from the signal itself. Building on GVSA and tools from graph signal processing, we introduce Graph-Variate Neural Networks (GVNNs): layers that convolve spatio-temporal signals with a signal-dependent connectivity tensor combining a stable long-term support with instantaneous, data-driven interactions. This design captures dynamic statistical interdependencies at each time step without ad hoc sliding windows and admits an efficient implementation with linear complexity in sequence length. Across forecasting benchmarks, GVNNs consistently outperform strong graph-based baselines and are competitive with widely used sequence models such as LSTMs and Transformers. On EEG motor-imagery classification, GVNNs achieve strong accuracy highlighting their potential for brain-computer interface applications.",
+    "url": "http://arxiv.org/abs/2509.20311v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-24T16:44:08+00:00",
+    "citation_count": null,
+    "text_hash": "0a690a444a493c7318dc0aa0bee1169a",
+    "index": 0
+  },
+  {
+    "id": "2509.19403v1",
+    "title": "Online Adaptation via Dual-Stage Alignment and Self-Supervision for Fast-Calibration Brain-Computer Interfaces",
+    "authors": [
+      "Sheng-Bin Duan",
+      "Jian-Long Hao",
+      "Tian-Yu Xiang",
+      "Xiao-Hu Zhou",
+      "Mei-Jiang Gui",
+      "Xiao-Liang Xie",
+      "Shi-Qi Liu",
+      "Zeng-Guang Hou"
+    ],
+    "abstract": "Individual differences in brain activity hinder the online application of electroencephalogram (EEG)-based brain computer interface (BCI) systems. To overcome this limitation, this study proposes an online adaptation algorithm for unseen subjects via dual-stage alignment and self-supervision. The alignment process begins by applying Euclidean alignment in the EEG data space and then updates batch normalization statistics in the representation space. Moreover, a self-supervised loss is designed to update the decoder. The loss is computed by soft pseudo-labels derived from the decoder as a proxy for the unknown ground truth, and is calibrated by Shannon entropy to facilitate self-supervised training. Experiments across five public datasets and seven decoders show the proposed algorithm can be integrated seamlessly regardless of BCI paradigm and decoder architecture. In each iteration, the decoder is updated with a single online trial, which yields average accuracy gains of 4.9% on steady-state visual evoked potentials (SSVEP) and 3.6% on motor imagery. These results support fast-calibration operation and show that the proposed algorithm has great potential for BCI applications.",
+    "url": "http://arxiv.org/abs/2509.19403v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-23T07:38:37+00:00",
+    "citation_count": null,
+    "text_hash": "f6723149d843fc3dcf80fbddcb237223",
+    "index": 1
+  },
+  {
+    "id": "2509.19401v1",
+    "title": "SpellerSSL: Self-Supervised Learning with P300 Aggregation for Speller BCIs",
+    "authors": [
+      "Jiazhen Hong",
+      "Geoff Mackellar",
+      "Soheila Ghane"
+    ],
+    "abstract": "Electroencephalogram (EEG)-based P300 speller brain-computer interfaces (BCIs) face three main challenges: low signal-to-noise ratio (SNR), poor generalization, and time-consuming calibration. We propose SpellerSSL, a framework that combines self-supervised learning (SSL) with P300 aggregation to address these issues. First, we introduce an aggregation strategy to enhance SNR. Second, to achieve generalization in training, we employ a customized 1D U-Net backbone and pretrain the model on both cross-domain and in-domain EEG data. The pretrained model is subsequently fine-tuned with a lightweight ERP-Head classifier for P300 detection, which adapts the learned representations to subject-specific data. Our evaluations on calibration time demonstrate that combining the aggregation strategy with SSL significantly reduces the calibration burden per subject and improves robustness across subjects. Experimental results show that SSL learns effective EEG representations in both in-domain and cross-domain, with in-domain achieving a state-of-the-art character recognition rate of 94% with only 7 repetitions and the highest information transfer rate (ITR) of 21.86 bits/min on the public II-B dataset. Moreover, in-domain SSL with P300 aggregation reduces the required calibration size by 60% while maintaining a comparable character recognition rate. To the best of our knowledge, this is the first study to apply SSL to P300 spellers, highlighting its potential to improve both efficiency and generalization in speller BCIs and paving the way toward an EEG foundation model for P300 speller BCIs.",
+    "url": "http://arxiv.org/abs/2509.19401v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-23T06:28:44+00:00",
+    "citation_count": null,
+    "text_hash": "d033c8a15569ad56149f061c5d91d708",
+    "index": 2
+  },
+  {
+    "id": "2509.18599v1",
+    "title": "From Noise to Insight: Visualizing Neural Dynamics with Segmented SNR Topographies for Improved EEG-BCI Performance",
+    "authors": [
+      "Eva Guttmann-Flury",
+      "Shan Zhao",
+      "Jian Zhao",
+      "Mohamad Sawan"
+    ],
+    "abstract": "Electroencephalography (EEG)-based wearable brain-computer interfaces (BCIs) face challenges due to low signal-to-noise ratio (SNR) and non-stationary neural activity. We introduce in this manuscript a mathematically rigorous framework that combines data-driven noise interval evaluation with advanced SNR visualization to address these limitations. Analysis of the publicly available Eye-BCI multimodal dataset demonstrates the method's ability to recover canonical P300 characteristics across frequency bands (delta: 0.5-4 Hz, theta: 4-7.5 Hz, broadband: 1-15 Hz), with precise spatiotemporal localization of both P3a (frontocentral) and P3b (parietal) subcomponents. To the best of our knowledge, this is the first study to systematically assess the impact of noise interval selection on EEG signal quality. Cross-session correlations for four different choices of noise intervals spanning from early to late pre-stimulus phases also indicate that alertness and task engagement states modulate noise interval sensitivity, suggesting broader applications for adaptive BCI systems. While validated in healthy participants, our results represent a first step towards providing clinicians with an interpretable tool for detecting neurophysiological abnormalities and provides quantifiable metrics for system optimization.",
+    "url": "http://arxiv.org/abs/2509.18599v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-23T03:38:39+00:00",
+    "citation_count": null,
+    "text_hash": "819e2ee6907061cf32504541b5090bc3",
+    "index": 3
+  },
+  {
+    "id": "2509.19385v1",
+    "title": "A Statistical Mixture-of-Experts Framework for EMG Artifact Removal in EEG: Empirical Insights and a Proof-of-Concept Application",
+    "authors": [
+      "Benjamin J. Choi",
+      "Griffin Milsap",
+      "Clara A. Scholl",
+      "Francesco Tenore",
+      "Mattson Ogg"
+    ],
+    "abstract": "Effective control of neural interfaces is limited by poor signal quality. While neural network-based electroencephalography (EEG) denoising methods for electromyogenic (EMG) artifacts have improved in recent years, current state-of-the-art (SOTA) models perform suboptimally in settings with high noise. To address the shortcomings of current machine learning (ML)-based denoising algorithms, we present a signal filtration algorithm driven by a new mixture-of-experts (MoE) framework. Our algorithm leverages three new statistical insights into the EEG-EMG denoising problem: (1) EMG artifacts can be partitioned into quantifiable subtypes to aid downstream MoE classification, (2) local experts trained on narrower signal-to-noise ratio (SNR) ranges can achieve performance increases through specialization, and (3) correlation-based objective functions, in conjunction with rescaling algorithms, can enable faster convergence in a neural network-based denoising context. We empirically demonstrate these three insights into EMG artifact removal and use our findings to create a new downstream MoE denoising algorithm consisting of convolutional (CNN) and recurrent (RNN) neural networks. We tested all results on a major benchmark dataset (EEGdenoiseNet) collected from 67 subjects. We found that our MoE denoising model achieved competitive overall performance with SOTA ML denoising algorithms and superior lower bound performance in high noise settings. These preliminary results highlight the promise of our MoE framework for enabling advances in EMG artifact removal for EEG processing, especially in high noise settings. Further research and development will be necessary to assess our MoE framework on a wider range of real-world test cases and explore its downstream potential to unlock more effective neural interfaces.",
+    "url": "http://arxiv.org/abs/2509.19385v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-21T17:39:56+00:00",
+    "citation_count": null,
+    "text_hash": "ebc3e34c021340315ef3f4be40c0abd7",
+    "index": 4
+  },
+  {
+    "id": "2509.15449v1",
+    "title": "In-Ear Electrode EEG for Practical SSVEP BCI",
+    "authors": [
+      "Surej Mouli",
+      "Ramaswamy Palaniappan",
+      "Emmanuel Molefi",
+      "Ian McLoughlin"
+    ],
+    "abstract": "Steady State Visual Evoked Potential (SSVEP) methods for brain computer interfaces (BCI) are popular due to higher information transfer rate and easier setup with minimal training, compared to alternative methods. With precisely generated visual stimulus frequency, it is possible to translate brain signals into external actions or signals. Traditionally, SSVEP data is collected from the occipital region using electrodes with or without gel, normally mounted on a head cap. In this experimental study, we develop an in ear electrode to collect SSVEP data for four different flicker frequencies and compare against occipital scalp electrode data. Data from five participants demonstrates the feasibility of in-ear electrode based SSVEP, significantly enhancing the practicability of wearable BCI applications.",
+    "url": "http://arxiv.org/abs/2509.15449v1",
+    "doi": "10.3390/technologies8040063",
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-18T21:44:34+00:00",
+    "citation_count": null,
+    "text_hash": "f882ead1dfd49a2e0653223f91887b4a",
+    "index": 5
+  },
+  {
+    "id": "2509.15439v1",
+    "title": "Dual-Mode Visual System for Brain-Computer Interfaces: Integrating SSVEP and P300 Responses",
+    "authors": [
+      "Ekgari Kasawala",
+      "Surej Mouli"
+    ],
+    "abstract": "In brain-computer interface (BCI) systems, steady-state visual evoked potentials (SSVEP) and P300 responses have achieved widespread implementation owing to their superior information transfer rates (ITR) and minimal training requirements. These neurophysiological signals have exhibited robust efficacy and versatility in external device control, demonstrating enhanced precision and scalability. However, conventional implementations predominantly utilise liquid crystal display (LCD)-based visual stimulation paradigms, which present limitations in practical deployment scenarios. This investigation presents the development and evaluation of a novel light-emitting diode (LED)-based dual stimulation apparatus designed to enhance SSVEP classification accuracy through the integration of both SSVEP and P300 paradigms. The system employs four distinct frequencies, 7 Hz, 8 Hz, 9 Hz, and 10 Hz, corresponding to forward, backward, right, and left directional controls, respectively. Oscilloscopic verification confirmed the precision of these stimulation frequencies. Real-time feature extraction was accomplished through the concurrent analysis of maximum Fast Fourier Transform (FFT) amplitude and P300 peak detection to ascertain user intent. Directional control was determined by the frequency exhibiting maximal amplitude characteristics. The visual stimulation hardware demonstrated minimal frequency deviation, with error differentials ranging from 0.15%to 0.20%across all frequencies. The implemented signal processing algorithm successfully discriminated all four stimulus frequencies whilst correlating them with their respective P300 event markers. Classification accuracy was evaluated based on correct task intention recognition. The proposed hybrid system achieved a mean classification accuracy of 86.25%, coupled with an average ITR of 42.08 bits per minute (bpm).",
+    "url": "http://arxiv.org/abs/2509.15439v1",
+    "doi": "10.3390/s25061802",
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-18T21:25:18+00:00",
+    "citation_count": null,
+    "text_hash": "1a5bed1119d59119a9426539db7b5ad1",
+    "index": 6
+  },
+  {
+    "id": "2509.09264v1",
+    "title": "Improved Riemannian potato field: an Automatic Artifact Rejection Method for EEG",
+    "authors": [
+      "Davoud Hajhassani",
+      "Quentin Barthélemy",
+      "Jérémie Mattout",
+      "Marco Congedo"
+    ],
+    "abstract": "Electroencephalography (EEG) signal cleaning has long been a critical challenge in the research community. The presence of artifacts can significantly degrade EEG data quality, complicating analysis and potentially leading to erroneous interpretations. While various artifact rejection methods have been proposed, the gold standard remains manual visual inspection by human experts-a process that is time-consuming, subjective, and impractical for large-scale EEG studies. Existing techniques are often hindered by a strong reliance on manual hyperparameter tuning, sensitivity to outliers, and high computational costs. In this paper, we introduce the improved Riemannian Potato Field (iRPF), a fast and fully automated method for EEG artifact rejection that addresses key limitations of current approaches. We evaluate iRPF against several state-of-the-art artifact rejection methods, using two publicly available EEG databases, labeled for various artifact types, comprising 226 EEG recordings. Our results demonstrate that iRPF outperforms all competitors across multiple metrics, with gains of up to 22% in recall, 102% in specificity, 54% in precision, and 24% in F1-score, compared to Isolation Forest, Autoreject, Riemannian Potato, and Riemannian Potato Field, respectively. Statistical analysis confirmed the significance of these improvements (p < 0.001) with large effect sizes (Cohen's d > 0.8) in most comparisons. Additionally, on a typical EEG recording iRPF performs artifact cleaning in under 8 milliseconds per epoch using a standard laptop, highlighting its efficiency for large-scale EEG data processing and real-time applications. iRPF offers a robust and data-driven artifact rejection solution for high-quality EEG pre-processing in brain-computer interfaces and clinical neuroimaging applications.",
+    "url": "http://arxiv.org/abs/2509.09264v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-11T08:49:31+00:00",
+    "citation_count": null,
+    "text_hash": "3421dc1257c4dc5d4ab5441f2a995ab0",
+    "index": 7
+  },
+  {
+    "id": "2507.23474v1",
+    "title": "Finger Force Decoding from Motor Units Activity on Neuromorphic Hardware",
+    "authors": [
+      "Farah Baracat",
+      "Giacomo Indiveri",
+      "Elisa Donati"
+    ],
+    "abstract": "Accurate finger force estimation is critical for next-generation human-machine interfaces. Traditional electromyography (EMG)-based decoding methods using deep learning require large datasets and high computational resources, limiting their use in real-time, embedded systems. Here, we propose a novel approach that performs finger force regression using spike trains from individual motor neurons, extracted from high-density EMG. These biologically grounded signals drive a spiking neural network implemented on a mixed-signal neuromorphic processor. Unlike prior work that encodes EMG into events, our method exploits spike timing on motor units to perform low-power, real-time inference. This is the first demonstration of motor neuron-based continuous regression computed directly on neuromorphic hardware. Our results confirm accurate finger-specific force prediction with minimal energy use, opening new possibilities for embedded decoding in prosthetics and wearable neurotechnology.",
+    "url": "http://arxiv.org/abs/2507.23474v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-07-31T11:55:02+00:00",
+    "citation_count": null,
+    "text_hash": "8a883c7f21d5d60fbe0c3308913685de",
+    "index": 8
+  }
+]

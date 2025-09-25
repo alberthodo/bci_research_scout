@@ -1,0 +1,461 @@
+[
+  {
+    "id": "2509.20363v1",
+    "title": "Directly Probing Neutrino Interactions through CMB Phase Shift\n  Measurements",
+    "authors": [
+      "Gabriele Montefalcone",
+      "Subhajit Ghosh",
+      "Kimberly K. Boddy",
+      "Daven Wei Ren Ho",
+      "Yuhsin Tsai"
+    ],
+    "abstract": "Perturbations in the cosmic neutrino background produce a characteristic\nphase shift in the acoustic oscillations imprinted in the anisotropies of the\ncosmic microwave background (CMB), providing a unique observational probe of\nneutrino physics. In this work, we explore how this phase shift signature is\naltered in the presence of neutrino interactions with temperature-dependent\nscattering rates, motivated by physical constructions for neutrino\nself-interactions and neutrino-dark matter couplings. A key finding is that the\nphase shift in these realistic models -- characterized by gradual rather than\ninstantaneous decoupling -- maintains the same functional form as the\nfree-streaming template, with only the asymptotic amplitude decreasing for\nstronger interactions that delay decoupling. This simple parametrization\nenables us to directly constrain neutrino interactions through phase shift\nmeasurements in the temperature and polarization power spectra from CMB\nobservations. Analyzing the latest data from \\textit{Planck}, the Atacama\nCosmology Telescope, and the South Pole Telescope, we derive strong constraints\non the neutrino decoupling redshift. Our global analysis indicates that\nneutrinos have been freely streaming since deep within the radiation-dominated\nepoch. We also explore flavor-dependent scenarios in which only one neutrino\nspecies interacts. Overall, our work establishes a signature-driven framework\nthat exploits the clean phase shift signal in the acoustic oscillations of the\nCMB as a precise and robust probe of non-standard neutrino interactions in the\nearly universe.",
+    "url": "http://arxiv.org/abs/2509.20363v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:59:54+00:00",
+    "categories": [
+      "astro-ph.CO",
+      "hep-ph",
+      "hep-th"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20363v1",
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph",
+        "hep-th"
+      ]
+    }
+  },
+  {
+    "id": "2509.20354v1",
+    "title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+    "authors": [
+      "Henrique Schechter Vera",
+      "Sahil Dua",
+      "Biao Zhang",
+      "Daniel Salz",
+      "Ryan Mullins",
+      "Sindhu Raghuram Panyam",
+      "Sara Smoot",
+      "Iftekhar Naim",
+      "Joe Zou",
+      "Feiyang Chen",
+      "Daniel Cer",
+      "Alice Lisak",
+      "Min Choi",
+      "Lucas Gonzalez",
+      "Omar Sanseviero",
+      "Glenn Cameron",
+      "Ian Ballantyne",
+      "Kat Black",
+      "Kaifeng Chen",
+      "Weiyi Wang",
+      "Zhe Li",
+      "Gus Martins",
+      "Jinhyuk Lee",
+      "Mark Sherwood",
+      "Juyeong Ji",
+      "Renjie Wu",
+      "Jingxiao Zheng",
+      "Jyotinder Singh",
+      "Abheesht Sharma",
+      "Divya Sreepat",
+      "Aashi Jain",
+      "Adham Elarabawy",
+      "AJ Co",
+      "Andreas Doumanoglou",
+      "Babak Samari",
+      "Ben Hora",
+      "Brian Potetz",
+      "Dahun Kim",
+      "Enrique Alfonseca",
+      "Fedor Moiseev",
+      "Feng Han",
+      "Frank Palma Gomez",
+      "Gustavo Hernández Ábrego",
+      "Hesen Zhang",
+      "Hui Hui",
+      "Jay Han",
+      "Karan Gill",
+      "Ke Chen",
+      "Koert Chen",
+      "Madhuri Shanbhogue",
+      "Michael Boratko",
+      "Paul Suganthan",
+      "Sai Meher Karthik Duddu",
+      "Sandeep Mariserla",
+      "Setareh Ariafar",
+      "Shanfeng Zhang",
+      "Shijie Zhang",
+      "Simon Baumgartner",
+      "Sonam Goenka",
+      "Steve Qiu",
+      "Tanmaya Dabral",
+      "Trevor Walker",
+      "Vikram Rao",
+      "Waleed Khawaja",
+      "Wenlei Zhou",
+      "Xiaoqi Ren",
+      "Ye Xia",
+      "Yichang Chen",
+      "Yi-Ting Chen",
+      "Zhe Dong",
+      "Zhongli Ding",
+      "Francesco Visin",
+      "Gaël Liu",
+      "Jiageng Zhang",
+      "Kathleen Kenealy",
+      "Michelle Casbon",
+      "Ravin Kumar",
+      "Thomas Mesnard",
+      "Zach Gleicher",
+      "Cormac Brick",
+      "Olivier Lacombe",
+      "Adam Roberts",
+      "Yunhsuan Sung",
+      "Raphael Hoffmann",
+      "Tris Warkentin",
+      "Armand Joulin",
+      "Tom Duerig",
+      "Mojtaba Seyedhosseini"
+    ],
+    "abstract": "We introduce EmbeddingGemma, a new lightweight, open text embedding model\nbased on the Gemma 3 language model family. Our innovative training recipe\nstrategically captures knowledge from larger models via encoder-decoder\ninitialization and geometric embedding distillation. We improve model\nrobustness and expressiveness with a spread-out regularizer, and ensure\ngeneralizability by merging checkpoints from varied, optimized mixtures.\nEvaluated on the Massive Text Embedding Benchmark (MTEB) across multilingual,\nEnglish, and code domains, EmbeddingGemma (300M) achieves state-of-the-art\nresults. Notably, it outperforms prior top models, both proprietary and open,\nwith fewer than 500M parameters, and provides performance comparable to models\ndouble its size, offering an exceptional performance-to-cost ratio. Remarkably,\nthis lead persists when quantizing model weights or truncating embedding\noutputs. This makes EmbeddingGemma particularly well-suited for low-latency and\nhigh-throughput use cases such as on-device applications. We provide ablation\nstudies exploring our key design choices. We release EmbeddingGemma to the\ncommunity to promote further research.",
+    "url": "http://arxiv.org/abs/2509.20354v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:56:51+00:00",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20354v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    }
+  },
+  {
+    "id": "2509.20346v1",
+    "title": "Noise-Induced Limits on Responsivity and SNR for Nonlinear Exceptional\n  Point Sensing",
+    "authors": [
+      "Todd Darcie",
+      "J. Stewart Aitchison"
+    ],
+    "abstract": "Exceptional points (EPs) have been suggested for ultra-sensitive sensing\nbecause the eigenfrequency splitting grows as the nth-root of a perturbation,\nsuggesting divergent responsivity. In ideal linear devices, however, this\nresponsivity gain is reconciled by a matching divergence in the quantum\nshot-noise floor, so the net signal-to-noise ratio remains unchanged. Recent\nwork has extended this argument to nonlinear devices, such as above-threshold\nlasers, predicting other divergences at an EP that is shifted by the interplay\nof noise and saturation effects. Here we analyze a system of two coupled\nsaturable resonators and show analytically that a self-consistent treatment of\nfluctuation dynamics removes these divergences entirely. Islands of instability\narise in the parameter space surrounding the EP due to the coupling of phase\nnoise into the amplitude dynamics, dictating a maximum responsivity and maximum\nnoise that can be experimentally observed. Stochastic Langevin simulations of\nthe full nonlinear system corroborate our analytical results down to zero\ndetuning.",
+    "url": "http://arxiv.org/abs/2509.20346v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:38:41+00:00",
+    "categories": [
+      "physics.optics"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20346v1",
+      "categories": [
+        "physics.optics"
+      ]
+    }
+  },
+  {
+    "id": "2509.20341v1",
+    "title": "Morphological Synthesizer for Ge'ez Language: Addressing Morphological\n  Complexity and Resource Limitations",
+    "authors": [
+      "Gebrearegawi Gebremariam",
+      "Hailay Teklehaymanot",
+      "Gebregewergs Mezgebe"
+    ],
+    "abstract": "Ge'ez is an ancient Semitic language renowned for its unique alphabet. It\nserves as the script for numerous languages, including Tigrinya and Amharic,\nand played a pivotal role in Ethiopia's cultural and religious development\nduring the Aksumite kingdom era. Ge'ez remains significant as a liturgical\nlanguage in Ethiopia and Eritrea, with much of the national identity\ndocumentation recorded in Ge'ez. These written materials are invaluable primary\nsources for studying Ethiopian and Eritrean philosophy, creativity, knowledge,\nand civilization. Ge'ez has a complex morphological structure with rich\ninflectional and derivational morphology, and no usable NLP has been developed\nand published until now due to the scarcity of annotated linguistic data,\ncorpora, labeled datasets, and lexicons. Therefore, we propose a rule-based\nGe'ez morphological synthesizer to generate surface words from root words\naccording to the morphological structures of the language. We used 1,102 sample\nverbs, representing all verb morphological structures, to test and evaluate the\nsystem. The system achieves a performance of 97.4%, outperforming the baseline\nmodel and suggesting that future work should build a comprehensive system\nconsidering morphological variations of the language.\n  Keywords: Ge'ez, NLP, morphology, morphological synthesizer, rule-based",
+    "url": "http://arxiv.org/abs/2509.20341v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:33:47+00:00",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "68T50, 68T35, 68N01",
+      "I.2.7; I.2.6; H.3.1"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20341v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "68T50, 68T35, 68N01",
+        "I.2.7; I.2.6; H.3.1"
+      ]
+    }
+  },
+  {
+    "id": "2509.20338v1",
+    "title": "Adaptive Event-Triggered Policy Gradient for Multi-Agent Reinforcement\n  Learning",
+    "authors": [
+      "Umer Siddique",
+      "Abhinav Sinha",
+      "Yongcan Cao"
+    ],
+    "abstract": "Conventional multi-agent reinforcement learning (MARL) methods rely on\ntime-triggered execution, where agents sample and communicate actions at fixed\nintervals. This approach is often computationally expensive and\ncommunication-intensive. To address this limitation, we propose ET-MAPG\n(Event-Triggered Multi-Agent Policy Gradient reinforcement learning), a\nframework that jointly learns an agent's control policy and its\nevent-triggering policy. Unlike prior work that decouples these mechanisms,\nET-MAPG integrates them into a unified learning process, enabling agents to\nlearn not only what action to take but also when to execute it. For scenarios\nwith inter-agent communication, we introduce AET-MAPG, an attention-based\nvariant that leverages a self-attention mechanism to learn selective\ncommunication patterns. AET-MAPG empowers agents to determine not only when to\ntrigger an action but also with whom to communicate and what information to\nexchange, thereby optimizing coordination. Both methods can be integrated with\nany policy gradient MARL algorithm. Extensive experiments across diverse MARL\nbenchmarks demonstrate that our approaches achieve performance comparable to\nstate-of-the-art, time-triggered baselines while significantly reducing both\ncomputational load and communication overhead.",
+    "url": "http://arxiv.org/abs/2509.20338v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:29:56+00:00",
+    "categories": [
+      "eess.SY",
+      "cs.AI",
+      "cs.MA",
+      "cs.SY",
+      "math.DS"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20338v1",
+      "categories": [
+        "eess.SY",
+        "cs.AI",
+        "cs.MA",
+        "cs.SY",
+        "math.DS"
+      ]
+    }
+  },
+  {
+    "id": "2509.20336v1",
+    "title": "Uncovering Graph Reasoning in Decoder-only Transformers with Circuit\n  Tracing",
+    "authors": [
+      "Xinnan Dai",
+      "Chung-Hsiang Lo",
+      "Kai Guo",
+      "Shenglai Zeng",
+      "Dongsheng Luo",
+      "Jiliang Tang"
+    ],
+    "abstract": "Transformer-based LLMs demonstrate strong performance on graph reasoning\ntasks, yet their internal mechanisms remain underexplored. To uncover these\nreasoning process mechanisms in a fundamental and unified view, we set the\nbasic decoder-only transformers and explain them using the circuit-tracer\nframework. Through this lens, we visualize reasoning traces and identify two\ncore mechanisms in graph reasoning: token merging and structural memorization,\nwhich underlie both path reasoning and substructure extraction tasks. We\nfurther quantify these behaviors and analyze how they are influenced by graph\ndensity and model size. Our study provides a unified interpretability framework\nfor understanding structural reasoning in decoder-only Transformers.",
+    "url": "http://arxiv.org/abs/2509.20336v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:25:05+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20336v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    }
+  },
+  {
+    "id": "2509.20334v1",
+    "title": "Feature Dynamics as Implicit Data Augmentation: A Depth-Decomposed View\n  on Deep Neural Network Generalization",
+    "authors": [
+      "Tianyu Ruan",
+      "Kuo Gai",
+      "Shihua Zhang"
+    ],
+    "abstract": "Why do deep networks generalize well? In contrast to classical generalization\ntheory, we approach this fundamental question by examining not only inputs and\noutputs, but the evolution of internal features. Our study suggests a\nphenomenon of temporal consistency that predictions remain stable when shallow\nfeatures from earlier checkpoints combine with deeper features from later ones.\nThis stability is not a trivial convergence artifact. It acts as a form of\nimplicit, structured augmentation that supports generalization. We show that\ntemporal consistency extends to unseen and corrupted data, but collapses when\nsemantic structure is destroyed (e.g., random labels). Statistical tests\nfurther reveal that SGD injects anisotropic noise aligned with a few principal\ndirections, reinforcing its role as a source of structured variability.\nTogether, these findings suggest a conceptual perspective that links feature\ndynamics to generalization, pointing toward future work on practical surrogates\nfor measuring temporal feature evolution.",
+    "url": "http://arxiv.org/abs/2509.20334v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:23:56+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20334v1",
+      "categories": [
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.20323v1",
+    "title": "A Recovery Guarantee for Sparse Neural Networks",
+    "authors": [
+      "Sara Fridovich-Keil",
+      "Mert Pilanci"
+    ],
+    "abstract": "We prove the first guarantees of sparse recovery for ReLU neural networks,\nwhere the sparse network weights constitute the signal to be recovered.\nSpecifically, we study structural properties of the sparse network weights for\ntwo-layer, scalar-output networks under which a simple iterative hard\nthresholding algorithm recovers these weights exactly, using memory that grows\nlinearly in the number of nonzero weights. We validate this theoretical result\nwith simple experiments on recovery of sparse planted MLPs, MNIST\nclassification, and implicit neural representations. Experimentally, we find\nperformance that is competitive with, and often exceeds, a high-performing but\nmemory-inefficient baseline based on iterative magnitude pruning.",
+    "url": "http://arxiv.org/abs/2509.20323v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T17:10:48+00:00",
+    "categories": [
+      "cs.LG",
+      "math.OC",
+      "stat.ML"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20323v1",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ]
+    }
+  },
+  {
+    "id": "2509.20311v1",
+    "title": "Graph Variate Neural Networks",
+    "authors": [
+      "Om Roy",
+      "Yashar Moshfeghi",
+      "Keith Smith"
+    ],
+    "abstract": "Modelling dynamically evolving spatio-temporal signals is a prominent\nchallenge in the Graph Neural Network (GNN) literature. Notably, GNNs assume an\nexisting underlying graph structure. While this underlying structure may not\nalways exist or is derived independently from the signal, a temporally evolving\nfunctional network can always be constructed from multi-channel data. Graph\nVariate Signal Analysis (GVSA) defines a unified framework consisting of a\nnetwork tensor of instantaneous connectivity profiles against a stable support\nusually constructed from the signal itself. Building on GVSA and tools from\ngraph signal processing, we introduce Graph-Variate Neural Networks (GVNNs):\nlayers that convolve spatio-temporal signals with a signal-dependent\nconnectivity tensor combining a stable long-term support with instantaneous,\ndata-driven interactions. This design captures dynamic statistical\ninterdependencies at each time step without ad hoc sliding windows and admits\nan efficient implementation with linear complexity in sequence length. Across\nforecasting benchmarks, GVNNs consistently outperform strong graph-based\nbaselines and are competitive with widely used sequence models such as LSTMs\nand Transformers. On EEG motor-imagery classification, GVNNs achieve strong\naccuracy highlighting their potential for brain-computer interface\napplications.",
+    "url": "http://arxiv.org/abs/2509.20311v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T16:44:08+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20311v1",
+      "categories": [
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.20306v1",
+    "title": "Certified Learning-Enabled Noise-Aware Motion Planning for Urban Air\n  Mobility",
+    "authors": [
+      "Jaejeong Park",
+      "Mahmoud Elfar",
+      "Cody Fleming",
+      "Yasser Shoukry"
+    ],
+    "abstract": "Urban Air Mobility (UAM) has emerged as a promising solution to alleviate\nurban congestion and transportation challenges. Nevertheless, the noise\ngenerated by eVTOL aircrafts poses a significant barrier to public acceptance\nand regulatory approval, potentially limiting the operational scope and\nscalability of UAM systems. Hence, the successful adoption of UAM systems\nhinges on the ability to predict generated noise levels, and further develop\nmotion planning strategies that comply with community-level noise regulations\nwhile maintaining operational efficiency. To this end, this paper proposes a\nnovel noise-aware motion planning framework for UAM systems that ensures\ncompliance with noise regulations. We first develop a certifiable neural\nnetwork model to accurately predict eVTOL noise propagation patterns in urban\nenvironments, providing provable bounds on its correctness. To achieve a\ndesired level of accuracy, we propose an active sampling strategy to\nefficiently build the dataset used to train and test the noise model. Next, we\ndevelop a noise-aware motion planning algorithm that utilizes the noise model\nto generate eVTOL trajectories that guarantee compliance with community noise\nregulations. The algorithm exploits the monotonic structure of the noise model\nto efficiently sample the configuration space, ensuring that the generated\ntrajectories are both noise-compliant and operationally efficient. We\ndemonstrate the effectiveness of the proposed framework through a number of\nexperiments for Vahana eVTOLs. The results show that the framework can generate\nnoise-compliant flight plans for a fleet of eVTOLs that adhere to community\nnoise regulations while optimizing operational efficiency.",
+    "url": "http://arxiv.org/abs/2509.20306v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T16:37:43+00:00",
+    "categories": [
+      "eess.SY",
+      "cs.SY"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.20306v1",
+      "categories": [
+        "eess.SY",
+        "cs.SY"
+      ]
+    }
+  },
+  {
+    "id": "2509.19665v1",
+    "title": "Deep Learning for Clouds and Cloud Shadow Segmentation in Methane\n  Satellite and Airborne Imaging Spectroscopy",
+    "authors": [
+      "Manuel Perez-Carrasco",
+      "Maya Nasr",
+      "Sebastien Roche",
+      "Chris Chan Miller",
+      "Zhan Zhang",
+      "Core Francisco Park",
+      "Eleanor Walker",
+      "Cecilia Garraffo",
+      "Douglas Finkbeiner",
+      "Ritesh Gautam",
+      "Steven Wofsy"
+    ],
+    "abstract": "Effective cloud and cloud shadow detection is a critical prerequisite for\naccurate retrieval of concentrations of atmospheric methane or other trace\ngases in hyperspectral remote sensing. This challenge is especially pertinent\nfor MethaneSAT and for its airborne companion mission, MethaneAIR. In this\nstudy, we use machine learning methods to address the cloud and cloud shadow\ndetection problem for sensors with these high spatial resolutions instruments.\nCloud and cloud shadows in remote sensing data need to be effectively screened\nout as they bias methane retrievals in remote sensing imagery and impact the\nquantification of emissions. We deploy and evaluate conventional techniques\nincluding Iterative Logistic Regression (ILR) and Multilayer Perceptron (MLP),\nwith advanced deep learning architectures, namely UNet and a Spectral Channel\nAttention Network (SCAN) method. Our results show that conventional methods\nstruggle with spatial coherence and boundary definition, affecting the\ndetection of clouds and cloud shadows. Deep learning models substantially\nimprove detection quality: UNet performs best in preserving spatial structure,\nwhile SCAN excels at capturing fine boundary details. Notably, SCAN surpasses\nUNet on MethaneSAT data, underscoring the benefits of incorporating spectral\nattention for satellite specific features. This in depth assessment of various\ndisparate machine learning techniques demonstrates the strengths and\neffectiveness of advanced deep learning architectures in providing robust,\nscalable solutions for clouds and cloud shadow screening towards enhancing\nmethane emission quantification capacity of existing and next generation\nhyperspectral missions. Our data and code is publicly available at\nhttps://doi.org/10.7910/DVN/IKLZOJ",
+    "url": "http://arxiv.org/abs/2509.19665v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-24T00:49:52+00:00",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.19665v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    }
+  },
+  {
+    "id": "2509.19525v1",
+    "title": "Real-Time Reinforcement Learning for Dynamic Tasks with a Parallel Soft\n  Robot",
+    "authors": [
+      "James Avtges",
+      "Jake Ketchum",
+      "Millicent Schlafly",
+      "Helena Young",
+      "Taekyoung Kim",
+      "Allison Pinosky",
+      "Ryan L. Truby",
+      "Todd D. Murphey"
+    ],
+    "abstract": "Closed-loop control remains an open challenge in soft robotics. The nonlinear\nresponses of soft actuators under dynamic loading conditions limit the use of\nanalytic models for soft robot control. Traditional methods of controlling soft\nrobots underutilize their configuration spaces to avoid nonlinearity,\nhysteresis, large deformations, and the risk of actuator damage. Furthermore,\nepisodic data-driven control approaches such as reinforcement learning (RL) are\ntraditionally limited by sample efficiency and inconsistency across\ninitializations. In this work, we demonstrate RL for reliably learning control\npolicies for dynamic balancing tasks in real-time single-shot hardware\ndeployments. We use a deformable Stewart platform constructed using parallel,\n3D-printed soft actuators based on motorized handed shearing auxetic (HSA)\nstructures. By introducing a curriculum learning approach based on expanding\nneighborhoods of a known equilibrium, we achieve reliable single-deployment\nbalancing at arbitrary coordinates. In addition to benchmarking the performance\nof model-based and model-free methods, we demonstrate that in a single\ndeployment, Maximum Diffusion RL is capable of learning dynamic balancing after\nhalf of the actuators are effectively disabled, by inducing buckling and by\nbreaking actuators with bolt cutters. Training occurs with no prior data, in as\nfast as 15 minutes, with performance nearly identical to the fully-intact\nplatform. Single-shot learning on hardware facilitates soft robotic systems\nreliably learning in the real world and will enable more diverse and capable\nsoft robots.",
+    "url": "http://arxiv.org/abs/2509.19525v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-23T19:45:21+00:00",
+    "categories": [
+      "cs.RO"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.19525v1",
+      "categories": [
+        "cs.RO"
+      ]
+    }
+  },
+  {
+    "id": "2509.19208v1",
+    "title": "Enabling Plant Phenotyping in Weedy Environments using Multi-Modal\n  Imagery via Synthetic and Generated Training Data",
+    "authors": [
+      "Earl Ranario",
+      "Ismael Mayanja",
+      "Heesup Yun",
+      "Brian N. Bailey",
+      "J. Mason Earles"
+    ],
+    "abstract": "Accurate plant segmentation in thermal imagery remains a significant\nchallenge for high throughput field phenotyping, particularly in outdoor\nenvironments where low contrast between plants and weeds and frequent\nocclusions hinder performance. To address this, we present a framework that\nleverages synthetic RGB imagery, a limited set of real annotations, and\nGAN-based cross-modality alignment to enhance semantic segmentation in thermal\nimages. We trained models on 1,128 synthetic images containing complex mixtures\nof crop and weed plants in order to generate image segmentation masks for crop\nand weed plants. We additionally evaluated the benefit of integrating as few as\nfive real, manually segmented field images within the training process using\nvarious sampling strategies. When combining all the synthetic images with a few\nlabeled real images, we observed a maximum relative improvement of 22% for the\nweed class and 17% for the plant class compared to the full real-data baseline.\nCross-modal alignment was enabled by translating RGB to thermal using\nCycleGAN-turbo, allowing robust template matching without calibration. Results\ndemonstrated that combining synthetic data with limited manual annotations and\ncross-domain translation via generative models can significantly boost\nsegmentation performance in complex field environments for multi-model imagery.",
+    "url": "http://arxiv.org/abs/2509.19208v1",
+    "doi": null,
+    "source": "arxiv",
+    "published_date": "2025-09-23T16:29:13+00:00",
+    "categories": [
+      "cs.CV"
+    ],
+    "year": 2025,
+    "citation_count": null,
+    "raw_data": {
+      "arxiv_id": "2509.19208v1",
+      "categories": [
+        "cs.CV"
+      ]
+    }
+  }
+]

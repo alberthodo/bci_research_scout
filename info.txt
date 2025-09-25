@@ -1,0 +1,188 @@
+ the RAG-based Literature Scout 
+
+1. Core idea + killer differentiators
+2. Minimal but impressive architecture (components you’ll actually build)
+3. UX / features that sell to reviewers (what to demo & why)
+4. Concrete implementation details (APIs, prompt templates, vector store choices, example responses)
+5. Deliverables & portfolio framing (readme, video, elevator pitch)
+
+---
+
+# 1) Core idea + standout differentiators
+
+Basic idea: user types a BCI query (e.g., “SSVEP non-invasive 2023-2025”), the backend runs a RAG pipeline over fresh research sources and returns a short, cited trend summary with provenance, semantic clusters, and a timeline.
+
+Make it *extra* standout by adding:
+
+* **Provenance-first summaries** — every claim has a clickable citation and score (similarity/confidence).
+* **Trend timeline visualization** (papers per year, top keywords over time).
+* **Claim-level evidence** extraction (pull the sentence from the paper that supports the claim).
+* **Interactive cluster explorer** (hover to see keywords and representative papers).
+* **Reproducibility snapshot** — a small QR/JSON that encodes the search query + sources + embedding seed so reviewers can reproduce results.
+* **Conservative assistant mode** — the model explicitly lists “uncertain / low-evidence” findings (good for showing scientific rigor).
+* **Export-ready notes** — BibTeX + TL;DR bullets for email outreach.
+
+Those make it feel like research tooling, not just a demo.
+
+---
+
+# 2) Minimal, impressive architecture (what you actually ship)
+
+Frontend: React + Tailwind (single page).
+Backend: FastAPI (Python) or Node.js/Express. Use a single endpoint `/query` that returns JSON.
+Retrieval: local FAISS or Weaviate (vector store).
+Embeddings: OpenAI embeddings OR open-source (text-embedding-3-small / SentenceTransformers) — pick whichever you can access.
+LLM: OpenAI / Anthropic / local LLM (if you want offline). Use the LLM only for generation; retrieval provides evidence.
+Crawling / data: seed with arXiv + PubMed + Semantic Scholar metadata (use their APIs) and store PDF abstracts + metadata. For a one-day prototype you can fetch \~100–300 recent abstracts for the domain using arXiv API.
+Pipeline:
+
+* Query → retrieve top-k docs from vector store (k=6-12)
+* For each retrieved doc, extract (title, authors, year, abstract, URL, salient sentences)
+* Compose a prompt to LLM: summarise trend + provide numbered claims + attach citations (doc ids + URLs) + produce bibtex entries.
+
+No need to ingest full PDFs for prototype — abstracts + metadata are enough and fast.
+
+---
+
+# 3) UX / features to demo (what the reviewer will see)
+
+Make the demo *disarmingly* simple visually but packed with evidence:
+
+Frontend panels:
+
+* Search bar (topic + date-range + source toggles: arXiv/PubMed)
+* Results pane:
+
+  * Short bullet summary (3–5 lines)
+  * Key claims (each claim with a confidence meter + linked evidence snippet)
+  * Interactive timeline (papers/year)
+  * Cluster map (UMAP/t-SNE) of retrieved docs — click cluster to open list
+  * “Show sources” — list of returned papers with abstracts, DOI/arXiv link, and a small “quote” that LLM used as evidence
+* Buttons: Export BibTeX | Save snapshot | Copy TL;DR
+
+Polish points:
+
+* Show the prompt that produced the summary (transparent chain-of-thought style, but short).
+* Small badge “Reproducible snapshot” that contains the query + seed + top doc ids so another reviewer could re-run locally.
+* Demo mode: allow a “fake-real” toggle — run the same pipeline on locally cached data (fast) so you can demo offline.
+
+---
+
+# 4) Concrete implementation details
+
+### Data sources (what to call and how)
+
+* arXiv API (easy for CS/EE/Neurotech preprints) — fetch metadata/abstracts.
+* PubMed API (for neuro/biomed).
+* Semantic Scholar API (citation counts + influence).
+  (For prototype you can fetch recent \~200 arXiv abstracts by query.)
+
+### Vector store & embeddings
+
+* Embeddings: `sentence-transformers/all-MiniLM-L6-v2` (if you want open-source) OR OpenAI text-embedding-3-small.
+* Vector DB: FAISS (simple to run, local) or Chroma for super-fast.
+* Indexing: store metadata (title, authors, year, url) with vector.
+
+### Retrieval & prompt engineering
+
+Retrieval: dense vector search → top 8 docs → rerank by recency & citation count.
+
+Prompt template (short; keep provenance explicit):
+
+```
+System: You are a concise research assistant. Use provided documents to produce a short (4-6 sentence) trend summary, then list 3-6 specific claims each supported by one or more document citations. For each claim, include the supporting sentence(s) verbatim (≤25 words). If evidence is weak, mark as LOW_CONFIDENCE.
+
+User: Topic: {user_query}
+Retrieved docs (id, title, year, abstract, url, evidence_snippets):
+1) [DOC1] Title — Year — Abstract — URL — Snippet: "..."
+2) [DOC2] ...
+Instructions:
+- Produce: (A) Short trend summary; (B) Numbered claims with citations in [DOC#] format and the exact supporting sentence.
+- Include a "Reproducing snapshot" JSON with doc IDs and the retrieval seed.
+```
+
+### Example response (mock)
+
+```
+Trend summary:
+Non-invasive SSVEP work since 2022 focuses on wearable-friendly stimulation (higher frequencies), improved SNR from adaptive filters, and user comfort. [3 sources]
+
+Claims:
+1) Higher-frequency stimulation (30–40Hz) reduces visual fatigue and improves classification in small trials. [DOC4] Evidence: "We observed reduced fatigue at 35Hz compared to 12Hz." (DOC4 abstract)
+2) Adaptive band-stop denoising improved SNR by ~2.3 dB in simulated data. [DOC9] Evidence: "adaptive filter increased SNR by 2.3 dB." (DOC9)
+3) Real-world wearables show larger drop in accuracy vs lab setups — more artifact handling needed. [DOC2, DOC7] Evidence: "accuracy decreased by 15% in field tests." (DOC2)
+Repro snapshot: {"query":"SSVEP non-invasive 2023-2025","seed":123, "docs":[2,4,7,9]}
+Sources: [DOC2] Title — URL; [DOC4] Title — URL; ...
+```
+
+### Small code sketch (pseudo)
+
+* Indexing script (Python):
+
+```py
+from sentence_transformers import SentenceTransformer
+import faiss, numpy as np
+
+model = SentenceTransformer("all-MiniLM-L6-v2")
+texts = [doc['abstract'] for doc in docs]
+vectors = model.encode(texts, convert_to_numpy=True)
+index = faiss.IndexFlatL2(vectors.shape[1])
+index.add(vectors)
+# store metadata mapping separately
+```
+
+* Query flow (FastAPI endpoint):
+
+  * embed query → search FAISS → get top ids → fetch metadata/snippets → prompt LLM with template → return JSON.
+
+### Extra technical micro-features (cheap, high-impact)
+
+* **Claim confidence score**: compute as average similarity of claim-support snippets to the query.
+* **Automatic BibTeX generator** for sources (show in UI).
+* **Compact reproducibility token**: base64 JSON with query + doc ids + seed.
+* **Unit tests**: one or two simple tests that ensure retrieval returns at least one doc for sample queries — shows engineering rigor.
+
+---
+
+# 5) Deliverables & portfolio framing
+
+Make a tiny but clear package that reviewers can explore in 2 minutes:
+
+What to publish:
+
+* Live demo (GitHub Pages) or short Loom/recording of the app running.
+* Repository with:
+
+  * `README.md` (one-paragraph motivation, features, how to run)
+  * `demo.mp4` or gif
+  * `docker-compose.yml` (optional) — but not required for prototype
+  * `examples/queries.json` (3-5 example queries + expected output)
+* A short single-page case study (PDF) that explains research value and next steps.
+
+What to say in your portfolio / email:
+
+* "Built a RAG research assistant for BCI literature that returns provenance-first summaries, claim-level evidence, and reproducible snapshots — useful for rapid literature triage and informed outreach to labs."
+
+---
+
+# 6) Example README snippet (use on GitHub)
+
+```
+RAG-based BCI Literature Scout — prototype
+-----------------------------------------
+What it is:
+A lightweight RAG demo that retrieves recent BCI/Neurotech papers and produces concise, evidence-backed trend summaries with clickable citations and reproducible query snapshots.
+
+Why it matters:
+Speeds literature triage, enforces provenance, and shows how retrieval + generation can be used as a research-grade assistant for BCI labs.
+
+Try it:
+- Live demo: <link> (or run locally)
+- Example queries included in /examples
+
+Tech:
+React frontend | FastAPI backend | FAISS vector store | SentenceTransformers embeddings | gemeni LLM for summarization
+```
+
+---
+
