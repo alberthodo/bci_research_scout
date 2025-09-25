@@ -52,3 +52,55 @@ class ErrorResponse(BaseModel):
     error: str = Field(..., description="Error message")
     detail: Optional[str] = Field(None, description="Additional error details")
     status_code: int = Field(..., description="HTTP status code")
+
+# Sprint 5 Models for Advanced Features
+
+class TimelineData(BaseModel):
+    """Timeline visualization data"""
+    papers_per_year: Dict[int, int] = Field(..., description="Number of papers per year")
+    keyword_trends: Dict[str, List[Dict[str, Any]]] = Field(..., description="Keyword trends over time")
+    total_papers: int = Field(..., description="Total number of papers")
+    year_range: Dict[str, int] = Field(..., description="Min and max years")
+
+class ClusterPoint(BaseModel):
+    """Individual point in cluster visualization"""
+    id: str = Field(..., description="Paper ID")
+    x: float = Field(..., description="X coordinate")
+    y: float = Field(..., description="Y coordinate")
+    cluster_id: int = Field(..., description="Cluster assignment")
+    title: str = Field(..., description="Paper title")
+    year: int = Field(..., description="Publication year")
+    keywords: List[str] = Field(..., description="Top keywords")
+    citation_count: Optional[int] = Field(None, description="Citation count")
+
+class ClusterData(BaseModel):
+    """Cluster visualization data"""
+    points: List[ClusterPoint] = Field(..., description="All cluster points")
+    clusters: Dict[int, Dict[str, Any]] = Field(..., description="Cluster metadata")
+    algorithm: str = Field(..., description="Clustering algorithm used")
+    parameters: Dict[str, Any] = Field(..., description="Algorithm parameters")
+    message: Optional[str] = Field(None, description="Optional message for edge cases")
+
+class SourceInfo(BaseModel):
+    """Source information for transparency"""
+    name: str = Field(..., description="Source name")
+    description: str = Field(..., description="Source description")
+    last_updated: datetime = Field(..., description="Last update time")
+    paper_count: int = Field(..., description="Number of papers from this source")
+    coverage: Dict[str, Any] = Field(..., description="Coverage information")
+
+class PromptTransparency(BaseModel):
+    """Prompt transparency information"""
+    system_prompt: str = Field(..., description="System prompt used")
+    user_prompt_template: str = Field(..., description="User prompt template")
+    parameters: Dict[str, Any] = Field(..., description="LLM parameters")
+    model_info: Dict[str, str] = Field(..., description="Model information")
+
+class ReproducibilityInfo(BaseModel):
+    """Reproducibility information"""
+    snapshot_id: str = Field(..., description="Unique snapshot ID")
+    timestamp: datetime = Field(..., description="Snapshot timestamp")
+    query: str = Field(..., description="Original query")
+    parameters: Dict[str, Any] = Field(..., description="All parameters used")
+    data_version: str = Field(..., description="Data version hash")
+    model_version: str = Field(..., description="Model version")

@@ -11,6 +11,8 @@ function App() {
   const [results, setResults] = useState<QueryResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  
+  // Removed Sprint 5 state - keeping interface clean
 
   // Debug: Log when component mounts
   useEffect(() => {
@@ -51,23 +53,27 @@ function App() {
     }
   };
 
+  // Removed Sprint 5 functions - keeping interface clean
+
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header - Google-style */}
-      <header className="pt-8 pb-4">
-        <div className="text-center">
-          <h1 className="text-6xl font-normal text-gray-900 mb-2 tracking-tight">
-            BCI Literature Scout
-          </h1>
-          <p className="text-lg text-gray-600 font-light">
-            Research Brain-Computer Interface papers with AI-powered insights
-          </p>
-        </div>
-      </header>
+    <div className="min-h-screen bg-white flex flex-col">
+      {/* Header - Google-style, hidden when results exist */}
+      {!results && !loading && !error && (
+        <header className="pt-8 pb-4">
+          <div className="text-center">
+            <h1 className="text-6xl font-normal text-gray-900 mb-2 tracking-tight">
+              BCI Literature Scout
+            </h1>
+            <p className="text-lg text-gray-600 font-light">
+              Research Brain-Computer Interface papers with AI-powered insights
+            </p>
+          </div>
+        </header>
+      )}
 
       {/* Main Search Area */}
-      <main className="max-w-2xl mx-auto px-4">
-        <div className="mb-8">
+      <main className={`max-w-2xl mx-auto px-4 flex-1 ${results || loading || error ? 'pt-4' : 'flex flex-col justify-center'}`}>
+        <div className={`${results || loading || error ? 'mb-4' : 'mb-8'}`}>
           <SearchBar
             value={query}
             onChange={setQuery}
@@ -108,21 +114,14 @@ function App() {
                 <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
               </svg>
             </div>
-            <h3 className="text-lg font-medium text-gray-900 mb-2">Search BCI Literature</h3>
-            <p className="text-gray-500 max-w-md mx-auto">
-              Enter a research query to find relevant Brain-Computer Interface papers with AI-generated insights and evidence-backed claims.
-            </p>
-            <div className="mt-6 text-sm text-gray-400">
-              <p>Try: "SSVEP non-invasive 2023-2025" or "motor imagery EEG classification"</p>
-            </div>
           </div>
         )}
       </main>
 
-      {/* Footer */}
-      <footer className="absolute bottom-0 w-full py-4">
+      {/* Footer - Always at bottom */}
+      <footer className="py-4 mt-auto">
         <div className="text-center text-sm text-gray-500">
-          <p>Powered by RAG technology • Built for BCI researchers</p>
+          <p>Powered by sedem oasis • Built for BCI researchers</p>
         </div>
       </footer>
     </div>

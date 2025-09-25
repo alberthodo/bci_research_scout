@@ -34,32 +34,28 @@ class GeminiClient:
         """Initialize prompt templates for different tasks"""
         
         self.trend_summary_template = """
-You are a concise research assistant specializing in Brain-Computer Interface (BCI) literature. 
-Use the provided documents to produce a short (4-6 sentence) trend summary, then list 3-6 specific claims 
-each supported by one or more document citations.
-
-For each claim, include the supporting sentence(s) verbatim (≤25 words). If evidence is weak, mark as LOW_CONFIDENCE.
+You are a research assistant specializing in Brain-Computer Interface (BCI) literature. 
+Analyze the provided documents and extract specific, factual claims with evidence.
 
 Topic: {query}
 
 Retrieved documents:
 {documents}
 
-Instructions:
-- Produce: (A) Short trend summary; (B) Numbered claims with citations in [DOC#] format and the exact supporting sentence.
-- Include a "Reproducing snapshot" JSON with doc IDs and the retrieval seed.
-- Focus on recent trends, methodologies, and key findings in BCI research.
-- Be specific about technical details, performance metrics, and novel approaches.
-- If evidence is insufficient for a claim, mark it as LOW_CONFIDENCE.
+IMPORTANT: You MUST generate at least 2-3 claims from the documents. Each claim must be:
+1. A specific, factual statement about BCI research
+2. Supported by direct evidence from the documents
+3. Formatted exactly as shown below
 
-Format your response as:
+Format your response EXACTLY as follows:
+
 TREND SUMMARY:
-[4-6 sentence summary of the overall trends]
+[4-6 sentence summary of the overall trends and findings]
 
 KEY CLAIMS:
-1) [Claim text] [DOC#] Evidence: "[exact supporting sentence]" (confidence: HIGH/MEDIUM/LOW_CONFIDENCE)
-2) [Claim text] [DOC#] Evidence: "[exact supporting sentence]" (confidence: HIGH/MEDIUM/LOW_CONFIDENCE)
-...
+1) [Specific claim about BCI research] [DOC#] Evidence: "[exact supporting sentence from document]" (confidence: HIGH)
+2) [Another specific claim] [DOC#] Evidence: "[exact supporting sentence from document]" (confidence: HIGH)
+3) [Third specific claim] [DOC#] Evidence: "[exact supporting sentence from document]" (confidence: MEDIUM)
 
 REPRODUCIBILITY SNAPSHOT:
 {{
@@ -68,6 +64,8 @@ REPRODUCIBILITY SNAPSHOT:
     "doc_ids": {doc_ids},
     "retrieval_seed": {retrieval_seed}
 }}
+
+Remember: You MUST include the KEY CLAIMS section with at least 2-3 numbered claims, each with proper [DOC#] citations and evidence quotes.
 """
     
     def generate_trend_summary(
@@ -122,6 +120,13 @@ REPRODUCIBILITY SNAPSHOT:
             
             # Parse response
             parsed_response = self._parse_trend_summary_response(response_text, query, doc_ids)
+            
+            # Debug logging
+            logger.info(f"Raw LLM response length: {len(response_text)}")
+            logger.info(f"Parsed claims count: {len(parsed_response.get('claims', []))}")
+            if parsed_response.get('claims'):
+                for i, claim in enumerate(parsed_response['claims']):
+                    logger.info(f"Claim {i+1}: confidence_score={claim.get('confidence_score', 'N/A')}, text={claim.get('text', 'N/A')[:100]}...")
             
             logger.info(f"Generated trend summary with {len(parsed_response.get('claims', []))} claims")
             return parsed_response
@@ -211,13 +216,18 @@ REPRODUCIBILITY SNAPSHOT:
         """Extract claims from response text"""
         try:
             claims_section = self._extract_section(text, "KEY CLAIMS:")
+            logger.info(f"Claims section found: {len(claims_section)} characters")
+            logger.info(f"Claims section preview: {claims_section[:200]}...")
+            
             if not claims_section:
+                logger.warning("No KEY CLAIMS section found in response")
                 return []
             
             claims = []
             claim_pattern = r"(\d+)\)\s*(.+?)\s*\[DOC(\d+)\]\s*Evidence:\s*\"([^\"]+)\"\s*\(confidence:\s*(HIGH|MEDIUM|LOW_CONFIDENCE)\)"
             
             matches = re.findall(claim_pattern, claims_section, re.DOTALL)
+            logger.info(f"Found {len(matches)} claim matches")
             
             for match in matches:
                 claim_num, claim_text, doc_num, evidence, confidence = match
@@ -231,6 +241,7 @@ REPRODUCIBILITY SNAPSHOT:
                     'confidence_score': self._confidence_to_score(confidence)
                 }
                 claims.append(claim)
+                logger.info(f"Extracted claim {claim_num}: confidence={confidence}, score={claim['confidence_score']}")
             
             return claims
             

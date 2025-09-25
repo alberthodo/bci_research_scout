@@ -18,6 +18,9 @@ sentence-transformers
 # LLM integration
 google-generativeai
 
+# Caching
+redis
+
 # Development tools
 pytest
 pytest-asyncio

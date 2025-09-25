@@ -270,3 +270,37 @@ class FAISSVectorStore:
         except Exception as e:
             logger.error(f"Error rebuilding index: {e}")
             raise
+    
+    # Sprint 5 Methods for Advanced Features
+    
+    def get_all_papers(self) -> List[Dict[str, Any]]:
+        """Get all papers from the vector store"""
+        return self.metadata.copy()
+    
+    def get_embedding(self, doc_id: str) -> Optional[np.ndarray]:
+        """Get embedding for a specific document by ID"""
+        try:
+            # Find the document in metadata
+            doc_index = None
+            for i, doc in enumerate(self.metadata):
+                if doc['id'] == doc_id:
+                    doc_index = i
+                    break
+            
+            if doc_index is None:
+                return None
+            
+            # Get the embedding from the FAISS index
+            if self.index.ntotal > doc_index:
+                # FAISS doesn't have a direct way to get a single vector
+                # We'll need to reconstruct it from the text
+                doc = self.metadata[doc_index]
+                text = f"{doc.get('title', '')} {doc.get('abstract', '')}"
+                embedding = self.embedding_model.encode([text])
+                return embedding[0]
+            
+            return None
+            
+        except Exception as e:
+            logger.error(f"Error getting embedding for {doc_id}: {e}")
+            return None

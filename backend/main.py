@@ -13,7 +13,8 @@ import os
 from dotenv import load_dotenv
 
 from rag_engine.rag_pipeline import RAGPipeline
-from models import QueryRequest, QueryResponse
+from models import QueryRequest, QueryResponse, TimelineData, ClusterData, SourceInfo
+from background_fetcher import background_fetcher
 
 # Load environment variables
 load_dotenv()
@@ -56,16 +57,33 @@ async def health_check() -> Dict[str, str]:
     """Health check endpoint"""
     return {"status": "healthy", "service": "rag-bci-scout"}
 
+@app.get("/cache/stats")
+async def get_cache_stats() -> Dict[str, Any]:
+    """Get cache statistics"""
+    from utils.cache_service import cache_service
+    return cache_service.get_cache_stats()
+
+@app.get("/background/stats")
+async def get_background_stats() -> Dict[str, Any]:
+    """Get background fetcher statistics"""
+    return background_fetcher.get_fetch_stats()
+
 @app.on_event("startup")
 async def startup_event():
-    """Initialize RAG pipeline on startup"""
+    """Initialize RAG pipeline and background fetcher on startup"""
     global rag_pipeline
     try:
         logger.info("Initializing RAG pipeline...")
         rag_pipeline = RAGPipeline()
         logger.info("RAG pipeline initialized successfully")
+        
+        # Start background fetcher
+        logger.info("Starting background fetcher...")
+        background_fetcher.start()
+        logger.info("Background fetcher started successfully")
+        
     except Exception as e:
-        logger.error(f"Failed to initialize RAG pipeline: {e}")
+        logger.error(f"Failed to initialize services: {e}")
         rag_pipeline = None
 
 @app.post("/query", response_model=QueryResponse)
@@ -89,6 +107,72 @@ async def query_literature(request: QueryRequest) -> QueryResponse:
         raise HTTPException(
             status_code=500,
             detail=f"Error processing query: {str(e)}"
+        )
+
+@app.get("/timeline", response_model=TimelineData)
+async def get_timeline_data():
+    """
+    Get timeline data for visualization (papers per year, keyword trends)
+    """
+    if not rag_pipeline:
+        raise HTTPException(
+            status_code=503, 
+            detail="RAG pipeline not initialized"
+        )
+    
+    try:
+        timeline_data = rag_pipeline.get_timeline_data()
+        return timeline_data
+        
+    except Exception as e:
+        logger.error(f"Error getting timeline data: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting timeline data: {str(e)}"
+        )
+
+@app.get("/clusters", response_model=ClusterData)
+async def get_cluster_data():
+    """
+    Get cluster data for visualization (UMAP/t-SNE clustering)
+    """
+    if not rag_pipeline:
+        raise HTTPException(
+            status_code=503, 
+            detail="RAG pipeline not initialized"
+        )
+    
+    try:
+        cluster_data = rag_pipeline.get_cluster_data()
+        return cluster_data
+        
+    except Exception as e:
+        logger.error(f"Error getting cluster data: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting cluster data: {str(e)}"
+        )
+
+@app.get("/sources")
+async def get_sources():
+    """
+    Get detailed source information for transparency
+    """
+    if not rag_pipeline:
+        raise HTTPException(
+            status_code=503, 
+            detail="RAG pipeline not initialized"
+        )
+    
+    try:
+        sources = rag_pipeline.get_sources_info()
+        return sources
+        
+    except Exception as e:
+        logger.error(f"Error getting sources: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting sources: {str(e)}"
         )
 
 @app.exception_handler(HTTPException)

@@ -51,3 +51,75 @@ export interface ApiError {
   detail?: string;
   status_code: number;
 }
+
+// Sprint 5 Types for Advanced Features
+
+export interface TimelineData {
+  papers_per_year: Record<number, number>;
+  keyword_trends: Record<string, Array<{
+    year: number;
+    count: number;
+  }>>;
+  total_papers: number;
+  year_range: {
+    min: number;
+    max: number;
+  };
+}
+
+export interface ClusterPoint {
+  id: string;
+  x: number;
+  y: number;
+  cluster_id: number;
+  title: string;
+  year: number;
+  keywords: string[];
+  citation_count?: number;
+}
+
+export interface ClusterData {
+  points: ClusterPoint[];
+  clusters: Record<number, {
+    size: number;
+    top_keywords: string[];
+    year_range: {
+      min: number;
+      max: number;
+    };
+  }>;
+  algorithm: string;
+  parameters: Record<string, any>;
+  message?: string;
+}
+
+export interface SourceInfo {
+  name: string;
+  description: string;
+  last_updated: string;
+  paper_count: number;
+  coverage: {
+    year_range: {
+      min: number;
+      max: number;
+    };
+    total_citations: number;
+    avg_citations: number;
+  };
+}
+
+export interface PromptTransparency {
+  system_prompt: string;
+  user_prompt_template: string;
+  parameters: Record<string, any>;
+  model_info: Record<string, string>;
+}
+
+export interface ReproducibilityInfo {
+  snapshot_id: string;
+  timestamp: string;
+  query: string;
+  parameters: Record<string, any>;
+  data_version: string;
+  model_version: string;
+}

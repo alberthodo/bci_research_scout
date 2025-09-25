@@ -1,6 +1,9 @@
 // API service for communicating with the backend
 
-import type { QueryRequest, QueryResponse, ApiError } from '../types';
+import type { 
+  QueryRequest, QueryResponse, ApiError, 
+  TimelineData, ClusterData, SourceInfo 
+} from '../types';
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
@@ -42,6 +45,50 @@ class ApiService {
       return await response.json();
     } catch (error) {
       console.error('Health check error:', error);
+      throw error;
+    }
+  }
+
+  // Sprint 5 API Methods
+
+  async getTimelineData(): Promise<TimelineData> {
+    try {
+      const response = await fetch(`${this.baseUrl}/timeline`);
+      if (!response.ok) {
+        const error: ApiError = await response.json();
+        throw new Error(error.error || 'Failed to get timeline data');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Timeline data error:', error);
+      throw error;
+    }
+  }
+
+  async getClusterData(): Promise<ClusterData> {
+    try {
+      const response = await fetch(`${this.baseUrl}/clusters`);
+      if (!response.ok) {
+        const error: ApiError = await response.json();
+        throw new Error(error.error || 'Failed to get cluster data');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Cluster data error:', error);
+      throw error;
+    }
+  }
+
+  async getSourcesInfo(): Promise<Record<string, SourceInfo>> {
+    try {
+      const response = await fetch(`${this.baseUrl}/sources`);
+      if (!response.ok) {
+        const error: ApiError = await response.json();
+        throw new Error(error.error || 'Failed to get sources info');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Sources info error:', error);
       throw error;
     }
   }
