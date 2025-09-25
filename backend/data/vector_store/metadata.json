@@ -3713,5 +3713,793 @@
     "citation_count": null,
     "text_hash": "3ef440c8e51d90fc9d316352a1ba5bc3",
     "index": 193
+  },
+  {
+    "id": "pubmed_32164856",
+    "title": "Electroencephalography.",
+    "authors": [
+      "Gernot R Müller-Putz"
+    ],
+    "abstract": "The electroencephalogram (EEG) was invented almost 100 years ago and is still a method of choice for many research questions, even applications-from functional brain imaging in neuroscientific investigations during movement to real-time applications like brain-computer interfacing. This chapter gives some background information on the establishment and properties of the EEG. This chapter starts with a closer look at the sources of EEG at a micro or neuronal level, followed by recording techniques, types of electrodes, and common EEG artifacts. Then an overview on EEG phenomena, namely, spontaneous EEG and event-related potentials build the middle part of this chapter. The last part discusses brain signals, which are used in current BCI research, including short descriptions and examples of applications.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32164856/",
+    "doi": "10.1016/B978-0-444-63934-9.00018-4",
+    "source": "pubmed",
+    "year": 2020,
+    "published_date": "2020-01-01",
+    "citation_count": null,
+    "text_hash": "f380c9b81c4b0c24a2c6d25909ea1a2f",
+    "index": 194
+  },
+  {
+    "id": "pubmed_32164851",
+    "title": "Bidirectional brain-computer interfaces.",
+    "authors": [
+      "Christopher Hughes",
+      "Angelica Herrera",
+      "Robert Gaunt",
+      "Jennifer Collinger"
+    ],
+    "abstract": "Brain-computer interfaces (BCIs) are devices that interface with the brain to enable interaction with the environment. BCIs have the potential to improve the quality of life for many individuals affected by debilitating disorders of the brain, spine, limbs, and sensory organs through direct interface with the nervous system. While much progress has been made in terms of BCI motor control, significantly less attention has been given to the restoration of tactile, or cutaneous sensations, which can be very important during grasping or manipulation of objects. BCIs will need to integrate both the motor and sensory modalities to truly restore arm and hand function. Here we describe a bidirectional BCI, a system which translates neural signals recorded from the motor cortex into signals to control a device and provides somatosensory feedback by translating external sensor information to electric stimulation patterns delivered to the cortex. In this chapter, we review the neuroscience of somatosensation, the history of sensory feedback in BCI applications, specifically for restoration of hand function and cutaneous sensations, and describe additional work that needs to be completed to make bidirectional BCI a clinical reality.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32164851/",
+    "doi": "10.1016/B978-0-444-63934-9.00013-5",
+    "source": "pubmed",
+    "year": 2020,
+    "published_date": "2020-01-01",
+    "citation_count": null,
+    "text_hash": "622b0dd0ce3a51d589e57817adac95d7",
+    "index": 195
+  },
+  {
+    "id": "pubmed_34116918",
+    "title": "Interface, interaction, and intelligence in generalized brain-computer interfaces.",
+    "authors": [
+      "Xiaorong Gao",
+      "Yijun Wang",
+      "Xiaogang Chen",
+      "Shangkai Gao"
+    ],
+    "abstract": "A brain-computer interface (BCI) establishes a direct communication channel between a brain and an external device. With recent advances in neurotechnology and artificial intelligence (AI), the brain signals in BCI communication have been advanced from sensation and perception to higher-level cognition activities. While the field of BCI has grown rapidly in the past decades, the core technologies and innovative ideas behind seemingly unrelated BCI systems have never been summarized from an evolutionary point of view. Here, we review various BCI paradigms and present an evolutionary model of generalized BCI technology which comprises three stages: interface, interaction, and intelligence (I3). We also highlight challenges, opportunities, and future perspectives in the development of new BCI technology.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34116918/",
+    "doi": "10.1016/j.tics.2021.04.003",
+    "source": "pubmed",
+    "year": 2021,
+    "published_date": "2021-01-01",
+    "citation_count": null,
+    "text_hash": "f05a5c63a0139fd3e44b453648abf097",
+    "index": 196
+  },
+  {
+    "id": "pubmed_36672115",
+    "title": "Modulating Brain Activity with Invasive Brain-Computer Interface: A Narrative Review.",
+    "authors": [
+      "Zhi-Ping Zhao",
+      "Chuang Nie",
+      "Cheng-Teng Jiang",
+      "Sheng-Hao Cao",
+      "Kai-Xi Tian",
+      "Shan Yu",
+      "Jian-Wen Gu"
+    ],
+    "abstract": "Brain-computer interface (BCI) can be used as a real-time bidirectional information gateway between the brain and machines. In particular, rapid progress in invasive BCI, propelled by recent developments in electrode materials, miniature and power-efficient electronics, and neural signal decoding technologies has attracted wide attention. In this review, we first introduce the concepts of neuronal signal decoding and encoding that are fundamental for information exchanges in BCI. Then, we review the history and recent advances in invasive BCI, particularly through studies using neural signals for controlling external devices on one hand, and modulating brain activity on the other hand. Specifically, regarding modulating brain activity, we focus on two types of techniques, applying electrical stimulation to cortical and deep brain tissues, respectively. Finally, we discuss the related ethical issues concerning the clinical application of this emerging technology.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36672115/",
+    "doi": "10.3390/brainsci13010134",
+    "source": "pubmed",
+    "year": 2023,
+    "published_date": "2023-01-01",
+    "citation_count": null,
+    "text_hash": "639ed551434b3a041ff50c002d99ab32",
+    "index": 197
+  },
+  {
+    "id": "pubmed_38711277",
+    "title": "Brain-to-brain interface technology: A brief history, current state, and future goals.",
+    "authors": [
+      "Pouya Vakilipour",
+      "Saba Fekrvand"
+    ],
+    "abstract": "A brain-to-brain interface (BBI), defined as a combination of neuroimaging and neurostimulation methods to extract and deliver information between brains directly without the need for the peripheral nervous system, is a budding communication technique. A BBI system is made up of two parts known as the brain-computer interface part, which reads a sender's brain activity and digitalizes it, and the computer-brain interface part, which writes the delivered brain activity to a receiving brain. As with other technologies, BBI systems have gone through an evolutionary process since they first appeared. The BBI systems have been employed for numerous purposes, including rehabilitation for post-stroke patients, communicating with patients suffering from amyotrophic lateral sclerosis, locked-in syndrome and speech problems following stroke. Also, it has been proposed that a BBI system could play an important role on future battlefields. This technology was not only employed for communicating between two human brains but also for making a direct communication path among different species through which motor or sensory commands could be sent and received. However, the application of BBI systems has provoked significant challenges to human rights principles due to their ability to access and manipulate human brain information. In this study, we aimed to review the brain-computer interface and computer-brain interface technologies as components of BBI systems, the development of BBI systems, applications of this technology, arising ethical issues and expectations for future use.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38711277/",
+    "doi": "10.1002/jdn.10334",
+    "source": "pubmed",
+    "year": 2024,
+    "published_date": "2024-01-01",
+    "citation_count": null,
+    "text_hash": "51129fc6ea25b0aede3628be542bce64",
+    "index": 198
+  },
+  {
+    "id": "pubmed_32164846",
+    "title": "Brain-computer interfaces in neurologic rehabilitation practice.",
+    "authors": [
+      "Floriana Pichiorri",
+      "Donatella Mattia"
+    ],
+    "abstract": "The brain-computer interfaces (BCIs) for neurologic rehabilitation are based on the assumption that by retraining the brain to specific activities, an ultimate improvement of function can be expected. In this chapter, we review the present status, key determinants, and future directions of the clinical use of BCI in neurorehabilitation. The recent advancements in noninvasive BCIs as a therapeutic tool to promote functional motor recovery by inducing neuroplasticity are described, focusing on stroke as it represents the major cause of long-term motor disability. The relevance of recent findings on BCI use in spinal cord injury beyond the control of neuroprosthetic devices to restore motor function is briefly discussed. In a dedicated section, we examine the potential role of BCI technology in the domain of cognitive function recovery by instantiating BCIs in the long history of neurofeedback and some emerging BCI paradigms to address cognitive rehabilitation are highlighted. Despite the knowledge acquired over the last decade and the growing number of studies providing evidence for clinical efficacy of BCI in motor rehabilitation, an exhaustive deployment of this technology in clinical practice is still on its way. The pipeline to translate BCI to clinical practice in neurorehabilitation is the subject of this chapter.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32164846/",
+    "doi": "10.1016/B978-0-444-63934-9.00009-3",
+    "source": "pubmed",
+    "year": 2020,
+    "published_date": "2020-01-01",
+    "citation_count": null,
+    "text_hash": "1dbf8d310fdb4f6bc3add8b3e51b03f5",
+    "index": 199
+  },
+  {
+    "id": "pubmed_35573313",
+    "title": "EEG-TNet: An End-To-End Brain Computer Interface Framework for Mental Workload Estimation.",
+    "authors": [
+      "Chaojie Fan",
+      "Jin Hu",
+      "Shufang Huang",
+      "Yong Peng",
+      "Sam Kwong"
+    ],
+    "abstract": "The mental workload (MWL) of different occupational groups' workers is the main and direct factor of unsafe behavior, which may cause serious accidents. One of the new and useful technologies to estimate MWL is the Brain computer interface (BCI) based on EEG signals, which is regarded as the gold standard of cognitive status. However, estimation systems involving handcrafted EEG features are time-consuming and unsuitable to apply in real-time. The purpose of this study was to propose an end-to-end BCI framework for MWL estimation. First, a new automated data preprocessing method was proposed to remove the artifact without human interference. Then a new neural network structure named EEG-TNet was designed to extract both the temporal and frequency information from the original EEG. Furthermore, two types of experiments and ablation studies were performed to prove the effectiveness of this model. In the subject-dependent experiment, the estimation accuracy of dual-task estimation (No task vs. TASK) and triple-task estimation (Lo vs. Mi vs. Hi) reached 99.82 and 99.21%, respectively. In contrast, the accuracy of different tasks reached 82.78 and 66.83% in subject-independent experiments. Additionally, the ablation studies proved that preprocessing method and network structure had significant contributions to estimation MWL. The proposed method is convenient without any human intervention and outperforms other related studies, which becomes an effective way to reduce human factor risks.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35573313/",
+    "doi": "10.3389/fnins.2022.869522",
+    "source": "pubmed",
+    "year": 2022,
+    "published_date": "2022-01-01",
+    "citation_count": null,
+    "text_hash": "9c32347104204a93010dee7f3f7d7b13",
+    "index": 200
+  },
+  {
+    "id": "pubmed_10359496",
+    "title": "Ambulatory EEG monitoring.",
+    "authors": [
+      "F Gilliam",
+      "R Kuzniecky",
+      "E Faught"
+    ],
+    "abstract": "Advances in computer technology offer increased capabilities for ambulatory EEG monitoring. The technical specifications of currently available ambulatory EEG machines reasonably approximate inpatient EEG equipment. However, the evolution of ambulatory EEG from 3-channel analog cassette recordings to reformatable 32-channel digital devices with computer-assisted spike and seizure detection raises several unresolved issues. Should patients with nondiagnostic routine EEG receive ambulatory EEG? Is ambulatory EEG as accurate for patients with unclear clinical diagnoses as inpatient video-EEG monitoring? If the diagnostic yield of ambulatory EEG is less than inpatient monitoring, do outpatient savings still make the technique cost-effective? This article reviews the development of ambulatory EEG and the investigations of its clinical utility. An evidence-based analysis explores the benefits and limitations of ambulatory EEG, and offers aspects of its use which require additional clinical research.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10359496/",
+    "doi": "10.1097/00004691-199903000-00003",
+    "source": "pubmed",
+    "year": 1999,
+    "published_date": "1999-01-01",
+    "citation_count": null,
+    "text_hash": "41b0164d6c993d6b489f3fcb95539380",
+    "index": 201
+  },
+  {
+    "id": "pubmed_22208122",
+    "title": "Brain-computer interface in stroke: a review of progress.",
+    "authors": [
+      "Stefano Silvoni",
+      "Ander Ramos-Murguialday",
+      "Marianna Cavinato",
+      "Chiara Volpato",
+      "Giulia Cisotto",
+      "Andrea Turolla",
+      "Francesco Piccione",
+      "Niels Birbaumer"
+    ],
+    "abstract": "Brain-computer interface (BCI) technology has been used for rehabilitation after stroke and there are a number of reports involving stroke patients in BCI-feedback training. Most publications have demonstrated the efficacy of BCI technology in post-stroke rehabilitation using output devices such as Functional Electrical Stimulation, robot, and orthosis. The aim of this review is to focus on the progress of BCI-based rehabilitation strategies and to underline future challenges. A brief history of clinical BCI-approaches is presented focusing on stroke motor rehabilitation. A context for three approaches of a BCI-based motor rehabilitation program is outlined: the substitutive strategy, classical conditioning and operant conditioning. Furthermore, we include an overview of a pilot study concerning a new neuro-forcefeedback strategy. This pilot study involved healthy participants. Finally we address some challenges for future BCI-based rehabilitation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22208122/",
+    "doi": "10.1177/155005941104200410",
+    "source": "pubmed",
+    "year": 2011,
+    "published_date": "2011-01-01",
+    "citation_count": null,
+    "text_hash": "b958de232d1ac25f94d90230e2fd8adb",
+    "index": 202
+  },
+  {
+    "id": "pubmed_37853025",
+    "title": "EEG-based epileptic seizure detection using binary dragonfly algorithm and deep neural network.",
+    "authors": [
+      "G Yogarajan",
+      "Najah Alsubaie",
+      "G Rajasekaran",
+      "T Revathi",
+      "Mohammed S Alqahtani",
+      "Mohamed Abbas",
+      "Madshush M Alshahrani",
+      "Ben Othman Soufiene"
+    ],
+    "abstract": "Electroencephalogram (EEG) is one of the most common methods used for seizure detection as it records the electrical activity of the brain. Symmetry and asymmetry of EEG signals can be used as indicators of epileptic seizures. Normally, EEG signals are symmetrical in nature, with similar patterns on both sides of the brain. However, during a seizure, there may be a sudden increase in the electrical activity in one hemisphere of the brain, causing asymmetry in the EEG signal. In patients with epilepsy, interictal EEG may show asymmetric spikes or sharp waves, indicating the presence of epileptic activity. Therefore, the detection of symmetry/asymmetry in EEG signals can be used as a useful tool in the diagnosis and management of epilepsy. However, it should be noted that EEG findings should always be interpreted in conjunction with the patient's clinical history and other diagnostic tests. In this paper, we propose an EEG-based improved automatic seizure detection system using a Deep neural network (DNN) and Binary dragonfly algorithm (BDFA). The DNN model learns the characteristics of the EEG signals through nine different statistical and Hjorth parameters extracted from various levels of decomposed signals obtained by using the Stationary Wavelet Transform. Next, the extracted features were reduced using the BDFA which helps to train DNN faster and improve its performance. The results show that the extracted features help to differentiate the normal, interictal, and ictal signals effectively with 100% accuracy, sensitivity, specificity, and F1 score with a 13% selected feature subset when compared to the existing approaches.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37853025/",
+    "doi": "10.1038/s41598-023-44318-w",
+    "source": "pubmed",
+    "year": 2023,
+    "published_date": "2023-01-01",
+    "citation_count": null,
+    "text_hash": "c0d67cc1bc8c45fad33bbc4592c99325",
+    "index": 203
+  },
+  {
+    "id": "2509.19403v1",
+    "title": "Online Adaptation via Dual-Stage Alignment and Self-Supervision for Fast-Calibration Brain-Computer Interfaces",
+    "authors": [
+      "Sheng-Bin Duan",
+      "Jian-Long Hao",
+      "Tian-Yu Xiang",
+      "Xiao-Hu Zhou",
+      "Mei-Jiang Gui",
+      "Xiao-Liang Xie",
+      "Shi-Qi Liu",
+      "Zeng-Guang Hou"
+    ],
+    "abstract": "Individual differences in brain activity hinder the online application of electroencephalogram (EEG)-based brain computer interface (BCI) systems. To overcome this limitation, this study proposes an online adaptation algorithm for unseen subjects via dual-stage alignment and self-supervision. The alignment process begins by applying Euclidean alignment in the EEG data space and then updates batch normalization statistics in the representation space. Moreover, a self-supervised loss is designed to update the decoder. The loss is computed by soft pseudo-labels derived from the decoder as a proxy for the unknown ground truth, and is calibrated by Shannon entropy to facilitate self-supervised training. Experiments across five public datasets and seven decoders show the proposed algorithm can be integrated seamlessly regardless of BCI paradigm and decoder architecture. In each iteration, the decoder is updated with a single online trial, which yields average accuracy gains of 4.9% on steady-state visual evoked potentials (SSVEP) and 3.6% on motor imagery. These results support fast-calibration operation and show that the proposed algorithm has great potential for BCI applications.",
+    "url": "http://arxiv.org/abs/2509.19403v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-23T07:38:37+00:00",
+    "citation_count": null,
+    "text_hash": "f6723149d843fc3dcf80fbddcb237223",
+    "index": 204
+  },
+  {
+    "id": "2509.15449v1",
+    "title": "In-Ear Electrode EEG for Practical SSVEP BCI",
+    "authors": [
+      "Surej Mouli",
+      "Ramaswamy Palaniappan",
+      "Emmanuel Molefi",
+      "Ian McLoughlin"
+    ],
+    "abstract": "Steady State Visual Evoked Potential (SSVEP) methods for brain computer interfaces (BCI) are popular due to higher information transfer rate and easier setup with minimal training, compared to alternative methods. With precisely generated visual stimulus frequency, it is possible to translate brain signals into external actions or signals. Traditionally, SSVEP data is collected from the occipital region using electrodes with or without gel, normally mounted on a head cap. In this experimental study, we develop an in ear electrode to collect SSVEP data for four different flicker frequencies and compare against occipital scalp electrode data. Data from five participants demonstrates the feasibility of in-ear electrode based SSVEP, significantly enhancing the practicability of wearable BCI applications.",
+    "url": "http://arxiv.org/abs/2509.15449v1",
+    "doi": "10.3390/technologies8040063",
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-18T21:44:34+00:00",
+    "citation_count": null,
+    "text_hash": "f882ead1dfd49a2e0653223f91887b4a",
+    "index": 205
+  },
+  {
+    "id": "2509.15439v1",
+    "title": "Dual-Mode Visual System for Brain-Computer Interfaces: Integrating SSVEP and P300 Responses",
+    "authors": [
+      "Ekgari Kasawala",
+      "Surej Mouli"
+    ],
+    "abstract": "In brain-computer interface (BCI) systems, steady-state visual evoked potentials (SSVEP) and P300 responses have achieved widespread implementation owing to their superior information transfer rates (ITR) and minimal training requirements. These neurophysiological signals have exhibited robust efficacy and versatility in external device control, demonstrating enhanced precision and scalability. However, conventional implementations predominantly utilise liquid crystal display (LCD)-based visual stimulation paradigms, which present limitations in practical deployment scenarios. This investigation presents the development and evaluation of a novel light-emitting diode (LED)-based dual stimulation apparatus designed to enhance SSVEP classification accuracy through the integration of both SSVEP and P300 paradigms. The system employs four distinct frequencies, 7 Hz, 8 Hz, 9 Hz, and 10 Hz, corresponding to forward, backward, right, and left directional controls, respectively. Oscilloscopic verification confirmed the precision of these stimulation frequencies. Real-time feature extraction was accomplished through the concurrent analysis of maximum Fast Fourier Transform (FFT) amplitude and P300 peak detection to ascertain user intent. Directional control was determined by the frequency exhibiting maximal amplitude characteristics. The visual stimulation hardware demonstrated minimal frequency deviation, with error differentials ranging from 0.15%to 0.20%across all frequencies. The implemented signal processing algorithm successfully discriminated all four stimulus frequencies whilst correlating them with their respective P300 event markers. Classification accuracy was evaluated based on correct task intention recognition. The proposed hybrid system achieved a mean classification accuracy of 86.25%, coupled with an average ITR of 42.08 bits per minute (bpm).",
+    "url": "http://arxiv.org/abs/2509.15439v1",
+    "doi": "10.3390/s25061802",
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-09-18T21:25:18+00:00",
+    "citation_count": null,
+    "text_hash": "1a5bed1119d59119a9426539db7b5ad1",
+    "index": 206
+  },
+  {
+    "id": "2508.09242v1",
+    "title": "Cross-BCI, A Cross-BCI-Paradigm Classifica-tion Model Towards Universal BCI Applications",
+    "authors": [
+      "Gaojie Zhou",
+      "Junhua Li"
+    ],
+    "abstract": "Classification models used in brain-computer interface (BCI) are usually designed for a single BCI paradigm. This requires the redevelopment of the model when applying it to a new BCI paradigm, resulting in repeated costs and effort. Moreover, less complex deep learning models are desired for practical usage, as well as for deployment on portable devices. In or-der to fill the above gaps, we, in this study, proposed a light-weight and unified decoding model for cross-BCI-paradigm classification. The proposed model starts with a tempo-spatial convolution. It is followed by a multi-scale local feature selec-tion module, aiming to extract local features shared across BCI paradigms and generate weighted features. Finally, a mul-ti-dimensional global feature extraction module is designed, in which multi-dimensional global features are extracted from the weighted features and fused with the weighted features to form high-level feature representations associated with BCI para-digms. The results, evaluated on a mixture of three classical BCI paradigms (i.e., MI, SSVEP, and P300), demon-strate that the proposed model achieves 88.39%, 82.36%, 80.01%, and 0.8092 for accuracy, macro-precision, mac-ro-recall, and macro-F1-score, respectively, significantly out-performing the compared models. This study pro-vides a feasible solution for cross-BCI-paradigm classifica-tion. It lays a technological foundation for de-veloping a new generation of unified decoding systems, paving the way for low-cost and universal practical applications.",
+    "url": "http://arxiv.org/abs/2508.09242v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-08-12T16:04:50+00:00",
+    "citation_count": null,
+    "text_hash": "b92cd64acd57cae7f2938b231ceb6145",
+    "index": 207
+  },
+  {
+    "id": "2508.01510v1",
+    "title": "DIY hybrid SSVEP-P300 LED stimuli for BCI platform using EMOTIV EEG headset",
+    "authors": [
+      "Surej Mouli",
+      "Ramaswamy Palaniappan"
+    ],
+    "abstract": "A fully customisable chip-on board (COB) LED design to evoke two brain responses simultaneously (steady state visual evoked potential (SSVEP) and transient evoked potential, P300) is discussed in this paper. Considering different possible modalities in braincomputer interfacing (BCI), SSVEP is widely accepted as it requires a lesser number of electroencephalogram (EEG) electrodes and minimal training time. The aim of this work was to produce a hybrid BCI hardware platform to evoke SSVEP and P300 precisely with reduced fatigue and improved classification performance. The system comprises of four independent radial green visual stimuli controlled individually by a 32-bit microcontroller platform to evoke SSVEP and four red LEDs flashing at random intervals to generate P300 events. The system can also record the P300 event timestamps that can be used in classification, to improve the accuracy and reliability. The hybrid stimulus was tested for realtime classification accuracy by controlling a LEGO robot to move in four directions.",
+    "url": "http://arxiv.org/abs/2508.01510v1",
+    "doi": "10.1016/j.ohx.2020.e00113",
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-08-02T22:22:16+00:00",
+    "citation_count": null,
+    "text_hash": "2a4a0d8146adfbf72e21b2bd91853f82",
+    "index": 208
+  },
+  {
+    "id": "2506.01284v1",
+    "title": "Fast SSVEP Detection Using a Calibration-Free EEG Decoding Framework",
+    "authors": [
+      "Chenlong Wang",
+      "Jiaao Li",
+      "Shuailei Zhang",
+      "Wenbo Ding",
+      "Xinlei Chen"
+    ],
+    "abstract": "Steady-State Visual Evoked Potential is a brain response to visual stimuli flickering at constant frequencies. It is commonly used in brain-computer interfaces for direct brain-device communication due to their simplicity, minimal training data, and high information transfer rate. Traditional methods suffer from poor performance due to reliance on prior knowledge, while deep learning achieves higher accuracy but requires substantial high-quality training data for precise signal decoding. In this paper, we propose a calibration-free EEG signal decoding framework for fast SSVEP detection. Our framework integrates Inter-Trial Remixing & Context-Aware Distribution Alignment data augmentation for EEG signals and employs a compact architecture of small fully connected layers, effectively addressing the challenge of limited EEG data availability. Additionally, we propose an Adaptive Spectrum Denoise Module that operates in the frequency domain based on global features, requiring only linear complexity to reduce noise in EEG data and improve data quality. For calibration-free classification experiments on short EEG signals from three public datasets, our framework demonstrates statistically significant accuracy advantages(p<0.05) over existing methods in the majority of cases, while requiring at least 52.7% fewer parameters and 29.9% less inference time. By eliminating the need for user-specific calibration, this advancement significantly enhances the usability of BCI systems, accelerating their commercialization and widespread adoption in real-world applications.",
+    "url": "http://arxiv.org/abs/2506.01284v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-06-02T03:41:15+00:00",
+    "citation_count": null,
+    "text_hash": "cdf5e460d827a5421e82c9afe7e01f1d",
+    "index": 209
+  },
+  {
+    "id": "2506.02013v1",
+    "title": "Non-invasive two-step strategy BCI: brain-muscle-hand interface",
+    "authors": [
+      "Sun Ye",
+      "Zuo Cuiming",
+      "Zhang Rui",
+      "Shi Bin",
+      "Pang Yajing",
+      "Gao Lingyun",
+      "Zhao Bowei",
+      "Wang Jing",
+      "Yao Dezhong",
+      "Liu Gang"
+    ],
+    "abstract": "Brain-computer interface enables direct interaction between brain and device. However, common brain-computer interfaces often employ one-step strategy that rely on non-natural paradigms, such as SSVEP-BCI and MI-BCI, are limited to specific scenarios, restricting their broader application. This paper first proposes a two-step strategic brain-muscular-hand interface (BMHI) based on biological evolutionary selection mechanism, by integrating the brain-muscle (BM) interface with the muscle-hand (MH) interface through crosstalk (\"BMHI = BM + MH\"). To verify the effectiveness of BMHI and the advantages of a two-step strategy inspired by natural evolution, we conducted offline, comparison (comparing BMHI (two-step) and brain-hand interface (one-step)), and online experiments (using BMHI to control a virtual/machine hand for daily tasks). The results show that: (1) BMHI is feasible and the prediction accuracy is 0.79; (2) Unlike traditional multi-layer neural networks that attempt to establish a direct brain-signal-to-action mapping through a single end-to-end process (brain-hand interface), BMHI incorporates the neuro-muscular transmission mechanisms evolved in biological systems as an intermediate constraint layer. This phased decoding strategy can reduce training time by approximately 18-fold and improve decoding accuracy; (3) In the online control experiment, both the virtual hand and the manipulator were able to successfully complete tasks, like moving objects such as boxes or plates and holding water glasses. The results show that BMHI adopts a two-step decoding strategy that mimics natural human neural motor pathways, improves training efficiency and prediction accuracy, and promotes the development of BCI technology to a more natural interaction mode.",
+    "url": "http://arxiv.org/abs/2506.02013v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-05-27T22:35:19+00:00",
+    "citation_count": null,
+    "text_hash": "4a16f248f7da9c8213ddd0c0e056e521",
+    "index": 210
+  },
+  {
+    "id": "2504.14269v1",
+    "title": "Recognition of Frequencies of Short-Time SSVEP Signals Utilizing an SSCCA-Based Spatio-Spectral Feature Fusion Framework",
+    "authors": [
+      "Saif Bashar",
+      "Samia Nasir Nira",
+      "Shabbir Mahmood",
+      "Md. Humaun Kabir",
+      "Sujit Roy",
+      "Iffat Farhana"
+    ],
+    "abstract": "A brain-computer interface (BCI) facilitates direct communication between the brain and external equipment through EEG, which is preferred for its superior temporal resolution. Among EEG techniques, the steady-state visual evoked potential (SSVEP) is favored due to its robust signal-to-noise ratio, minimal training demands, and elevated information transmission rate. Frequency detection in SSVEP-based brain-computer interfaces commonly employs canonical correlation analysis (CCA). SSCCA (spatio-spectral canonical correlation analysis) augments CCA by refining spatial filtering. This paper presents a multistage feature fusion methodology for short-duration SSVEP frequency identification, employing SSCCA with template signals derived via leave-one-out cross-validation (LOOCV). A filterbank generates bandpass filters for stimulus frequencies and their harmonics, whereas SSCCA calculates correlation coefficients between subbands and templates. Two phases of non-linear weighting amalgamate these coefficients to discern the target stimulus. This multistage methodology surpasses traditional techniques, attaining a accuracy of 94.5%.",
+    "url": "http://arxiv.org/abs/2504.14269v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-04-19T11:42:06+00:00",
+    "citation_count": null,
+    "text_hash": "956a452179fb06cb528548ee04f989c5",
+    "index": 211
+  },
+  {
+    "id": "2502.11659v2",
+    "title": "An Innovative Brain-Computer Interface Interaction System Based on the Large Language Model",
+    "authors": [
+      "Jing Jin",
+      "Yutao Zhang",
+      "Ruitian Xu",
+      "Yixin Chen"
+    ],
+    "abstract": "Recent advancements in large language models (LLMs) provide a more effective pathway for upgrading brain-computer interface (BCI) technology in terms of user interaction. The widespread adoption of BCIs in daily application scenarios is still limited by factors such as their single functionality, restricted paradigm design, weak multilingual support, and low levels of intelligence. In this paper, we propose an innovative BCI system that deeply integrates a steady-state visual evoked potential (SSVEP) speller with an LLM application programming interface (API). It allows natural language input through the SSVEP speller and dynamically calls large models to generate SSVEP paradigms. The command prompt, blinking frequency, and layout position are adjustable to meet the user's control requirements in various scenarios. More than ten languages are compatible with the multilingual support of LLM. A variety of task scenarios, such as home appliance control, robotic arm operation, and unmanned aerial vehicle (UAV) management are provided. The task interfaces of the system can be personalized according to the user's habits, usage scenarios, and equipment characteristics. By combining the SSVEP speller with an LLM, the system solves numerous challenges faced by current BCI systems and makes breakthroughs in functionality, intelligence, and multilingual support. The introduction of LLM not only enhances user experience but also expands the potential applications of BCI technology in real-world environments.",
+    "url": "http://arxiv.org/abs/2502.11659v2",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-02-17T10:49:40+00:00",
+    "citation_count": null,
+    "text_hash": "deb6aa2aedb5bd216a52763336e0a56e",
+    "index": 212
+  },
+  {
+    "id": "2502.10994v1",
+    "title": "SSVEP-BiMA: Bifocal Masking Attention Leveraging Native and Symmetric-Antisymmetric Components for Robust SSVEP Decoding",
+    "authors": [
+      "Yuxin Liu",
+      "Zhenxi Song",
+      "Guoyang Xu",
+      "Zirui Wang",
+      "Feng Wan",
+      "Yong Hu",
+      "Min Zhang",
+      "Zhiguo Zhang"
+    ],
+    "abstract": "Brain-computer interface (BCI) based on steady-state visual evoked potentials (SSVEP) is a popular paradigm for its simplicity and high information transfer rate (ITR). Accurate and fast SSVEP decoding is crucial for reliable BCI performance. However, conventional decoding methods demand longer time windows, and deep learning models typically require subject-specific fine-tuning, leaving challenges in achieving optimal performance in cross-subject settings. This paper proposed a biofocal masking attention-based method (SSVEP-BiMA) that synergistically leverages the native and symmetric-antisymmetric components for decoding SSVEP. By utilizing multiple signal representations, the network is able to integrate features from a wider range of sample perspectives, leading to more generalized and comprehensive feature learning, which enhances both prediction accuracy and robustness. We performed experiments on two public datasets, and the results demonstrate that our proposed method surpasses baseline approaches in both accuracy and ITR. We believe that this work will contribute to the development of more efficient SSVEP-based BCI systems.",
+    "url": "http://arxiv.org/abs/2502.10994v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-02-16T04:58:59+00:00",
+    "citation_count": null,
+    "text_hash": "d1eef07416ba9316d24ffbc6916f201e",
+    "index": 213
+  },
+  {
+    "id": "2502.10904v1",
+    "title": "Hybrid Brain-Machine Interface: Integrating EEG and EMG for Reduced Physical Demand",
+    "authors": [
+      "Daniel Wang",
+      "Katie Hong",
+      "Zachary Sayyah",
+      "Malcolm Krolick",
+      "Emma Steinberg",
+      "Rohan Venkatdas",
+      "Sidharth Pavuluri",
+      "Yipeng Wang",
+      "Zihan Huang"
+    ],
+    "abstract": "We present a hybrid brain-machine interface (BMI) that integrates steady-state visually evoked potential (SSVEP)-based EEG and facial EMG to improve multimodal control and mitigate fatigue in assistive applications. Traditional BMIs relying solely on EEG or EMG suffer from inherent limitations; EEG-based control requires sustained visual focus, leading to cognitive fatigue, while EMG-based control induces muscular fatigue over time. Our system dynamically alternates between EEG and EMG inputs, using EEG to detect SSVEP signals at 9.75 Hz and 14.25 Hz and EMG from cheek and neck muscles to optimize control based on task demands. In a virtual turtle navigation task, the hybrid system achieved task completion times comparable to an EMG-only approach, while 90% of users reported reduced or equal physical demand. These findings demonstrate that multimodal BMI systems can enhance usability, reduce strain, and improve long-term adherence in assistive technologies.",
+    "url": "http://arxiv.org/abs/2502.10904v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-02-15T20:54:02+00:00",
+    "citation_count": null,
+    "text_hash": "79f361320de2b9a067936edf1fb21fbc",
+    "index": 214
+  },
+  {
+    "id": "2502.13972v1",
+    "title": "IncepFormerNet: A multi-scale multi-head attention network for SSVEP classification",
+    "authors": [
+      "Yan Huang",
+      "Yongru Chen",
+      "Lei Cao",
+      "Yongnian Cao",
+      "Xuechun Yang",
+      "Yilin Dong",
+      "Tianyu Liu"
+    ],
+    "abstract": "In recent years, deep learning (DL) models have shown outstanding performance in EEG classification tasks, particularly in Steady-State Visually Evoked Potential(SSVEP)-based Brain-Computer-Interfaces(BCI)systems. DL methods have been successfully applied to SSVEP-BCI. This study proposes a new model called IncepFormerNet, which is a hybrid of the Inception and Transformer architectures. IncepFormerNet adeptly extracts multi-scale temporal information from time series data using parallel convolution kernels of varying sizes, accurately capturing the subtle variations and critical features within SSVEP signals.Furthermore, the model integrates the multi-head attention mechanism from the Transformer architecture, which not only provides insights into global dependencies but also significantly enhances the understanding and representation of complex patterns.Additionally, it takes advantage of filter bank techniques to extract features based on the spectral characteristics of SSVEP data. To validate the effectiveness of the proposed model, we conducted experiments on two public datasets, . The experimental results show that IncepFormerNet achieves an accuracy of 87.41 on Dataset 1 and 71.97 on Dataset 2 using a 1.0-second time window. To further verify the superiority of the proposed model, we compared it with other deep learning models, and the results indicate that our method achieves significantly higher accuracy than the others.The source codes in this work are available at: https://github.com/CECNL/SSVEP-DAN.",
+    "url": "http://arxiv.org/abs/2502.13972v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2025,
+    "published_date": "2025-02-04T13:04:03+00:00",
+    "citation_count": null,
+    "text_hash": "1b56af66559b2f02f8009d1d879ca0e3",
+    "index": 215
+  },
+  {
+    "id": "2412.20052v1",
+    "title": "Improving SSVEP BCI Spellers With Data Augmentation and Language Models",
+    "authors": [
+      "Joseph Zhang",
+      "Ruiming Zhang",
+      "Kipngeno Koech",
+      "David Hill",
+      "Kateryna Shapovalenko"
+    ],
+    "abstract": "Steady-State Visual Evoked Potential (SSVEP) spellers are a promising communication tool for individuals with disabilities. This Brain-Computer Interface utilizes scalp potential data from (electroencephalography) EEG electrodes on a subject's head to decode specific letters or arbitrary targets the subject is looking at on a screen. However, deep neural networks for SSVEP spellers often suffer from low accuracy and poor generalizability to unseen subjects, largely due to the high variability in EEG data. In this study, we propose a hybrid approach combining data augmentation and language modeling to enhance the performance of SSVEP spellers. Using the Benchmark dataset from Tsinghua University, we explore various data augmentation techniques, including frequency masking, time masking, and noise injection, to improve the robustness of deep learning models. Additionally, we integrate a language model (CharRNN) with EEGNet to incorporate linguistic context, significantly enhancing word-level decoding accuracy. Our results demonstrate accuracy improvements of up to 2.9 percent over the baseline, with time masking and language modeling showing the most promise. This work paves the way for more accurate and generalizable SSVEP speller systems, offering improved communication solutions for individuals with disabilities.",
+    "url": "http://arxiv.org/abs/2412.20052v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2024,
+    "published_date": "2024-12-28T06:52:11+00:00",
+    "citation_count": null,
+    "text_hash": "a273d70474fe533a3a994c2f5278ea12",
+    "index": 216
+  },
+  {
+    "id": "2410.12267v1",
+    "title": "iFuzzyTL: Interpretable Fuzzy Transfer Learning for SSVEP BCI System",
+    "authors": [
+      "Xiaowei Jiang",
+      "Beining Cao",
+      "Liang Ou",
+      "Yu-Cheng Chang",
+      "Thomas Do",
+      "Chin-Teng Lin"
+    ],
+    "abstract": "The rapid evolution of Brain-Computer Interfaces (BCIs) has significantly influenced the domain of human-computer interaction, with Steady-State Visual Evoked Potentials (SSVEP) emerging as a notably robust paradigm. This study explores advanced classification techniques leveraging interpretable fuzzy transfer learning (iFuzzyTL) to enhance the adaptability and performance of SSVEP-based systems. Recent efforts have strengthened to reduce calibration requirements through innovative transfer learning approaches, which refine cross-subject generalizability and minimize calibration through strategic application of domain adaptation and few-shot learning strategies. Pioneering developments in deep learning also offer promising enhancements, facilitating robust domain adaptation and significantly improving system responsiveness and accuracy in SSVEP classification. However, these methods often require complex tuning and extensive data, limiting immediate applicability. iFuzzyTL introduces an adaptive framework that combines fuzzy logic principles with neural network architectures, focusing on efficient knowledge transfer and domain adaptation. iFuzzyTL refines input signal processing and classification in a human-interpretable format by integrating fuzzy inference systems and attention mechanisms. This approach bolsters the model's precision and aligns with real-world operational demands by effectively managing the inherent variability and uncertainty of EEG data. The model's efficacy is demonstrated across three datasets: 12JFPM (89.70% accuracy for 1s with an information transfer rate (ITR) of 149.58), Benchmark (85.81% accuracy for 1s with an ITR of 213.99), and eldBETA (76.50% accuracy for 1s with an ITR of 94.63), achieving state-of-the-art results and setting new benchmarks for SSVEP BCI performance.",
+    "url": "http://arxiv.org/abs/2410.12267v1",
+    "doi": null,
+    "source": "arxiv",
+    "year": 2024,
+    "published_date": "2024-10-16T06:07:23+00:00",
+    "citation_count": null,
+    "text_hash": "d1e0ff0f0892fac737e5b07b08f077e6",
+    "index": 217
+  },
+  {
+    "id": "pubmed_37680264",
+    "title": "Non-invasive EEG-based BCI spellers from the beginning to today: a mini-review.",
+    "authors": [
+      "Olga Maslova",
+      "Yuliya Komarova",
+      "Natalia Shusharina",
+      "Alexander Kolsanov",
+      "Alexander Zakharov",
+      "Evgenia Garina",
+      "Vasiliy Pyatin"
+    ],
+    "abstract": "The defeat of the central motor neuron leads to the motor disorders. Patients lose the ability to control voluntary muscles, for example, of the upper limbs, which introduces a fundamental dissonance in the possibility of daily use of a computer or smartphone. As a result, the patients lose the ability to communicate with other people. The article presents the most popular paradigms used in the brain-computer-interface speller system and designed for typing by people with severe forms of the movement disorders. Brain-computer interfaces (BCIs) have emerged as a promising technology for individuals with communication impairments. BCI-spellers are systems that enable users to spell words by selecting letters on a computer screen using their brain activity. There are three main types of BCI-spellers: P300, motor imagery (MI), and steady-state visual evoked potential (SSVEP). However, each type has its own limitations, which has led to the development of hybrid BCI-spellers that combine the strengths of multiple types. Hybrid BCI-spellers can improve accuracy and reduce the training period required for users to become proficient. Overall, hybrid BCI-spellers have the potential to improve communication for individuals with impairments by combining the strengths of multiple types of BCI-spellers. In conclusion, BCI-spellers are a promising technology for individuals with communication impairments. P300, MI, and SSVEP are the three main types of BCI-spellers, each with their own advantages and limitations. Further research is needed to improve the accuracy and usability of BCI-spellers and to explore their potential applications in other areas such as gaming and virtual reality.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37680264/",
+    "doi": "10.3389/fnhum.2023.1216648",
+    "source": "pubmed",
+    "year": 2023,
+    "published_date": "2023-01-01",
+    "citation_count": null,
+    "text_hash": "4512d695ad254b07e5817d0aee603e08",
+    "index": 218
+  },
+  {
+    "id": "pubmed_30441575",
+    "title": "Real-Life Dry-Contact Ear-EEG.",
+    "authors": [
+      "Simon L Kappel",
+      "Preben Kidmose"
+    ],
+    "abstract": "Our brain state is affected by and adapted to our surroundings. Therefore, to study natural states of the brain, it is desirable to measure brain responses in natural environments outside the lab. Among functional brain scanning methods, electroencephalography (EEG) is the most promising method for non-invasive brain monitoring in real-life environments. To enable long-term recordings in real-life, EEG devices must be wearable, user-friendly, and discreet. Ear-EEG is a method where EEG signals are recorded from electrodes placed on an earpiece inserted into the ear. The compact and discreet nature of an ear-EEG device makes it suitable for long-term real-life recordings. In this study, 6 subjects were recorded with conventional scalp EEG and ear-EEG. All recordings were performed with the same instrumentation and paradigms in both a lab setting and a real-life setting. The ear-EEG recordings were performed with a previously developed drycontact ear-EEG platform. Signals from the scalp electrodes and ear-electrodes were recorded by the same biosignal recorder, enabling re-referencing in the post-processing and analysis. The study comprised four paradigms: auditory steady-state response (ASSR), steady-state visual evoked potential (SSVEP), auditory onset response, and alpha band modulation. When the data were analyzed with a scalp reference (Cz), all the investigated responses were statistically significant in recordings from both settings. Statistically significant ASSR and SSVEP were measured in the lab by ear-electrodes referenced to an electrode within the same ear. In real-life, only the ASSR was statistically significant for a reference within the same ear. The results demonstrates that electrical brain activity can be recorded from dry-contact electrode ear-EEG in real-life.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30441575/",
+    "doi": "10.1109/EMBC.2018.8513532",
+    "source": "pubmed",
+    "year": 2018,
+    "published_date": "2018-01-01",
+    "citation_count": null,
+    "text_hash": "b3e783dbc329b1dd5ed0e16ee7ac8df2",
+    "index": 219
+  },
+  {
+    "id": "pubmed_37486136",
+    "title": "A Single-Channel and Non-Invasive Wearable Brain-Computer Interface for Industry and Healthcare.",
+    "authors": [
+      "Pasquale Arpaia",
+      "Antonio Esposito",
+      "Nicola Moccaldi",
+      "Marco Parvis"
+    ],
+    "abstract": "The present work focuses on how to build a wearable brain-computer interface (BCI). BCIs are a novel means of human-computer interaction that relies on direct measurements of brain signals to assist both people with disabilities and those who are able-bodied. Application examples include robotic control, industrial inspection, and neurorehabilitation. Notably, recent studies have shown that steady-state visually evoked potentials (SSVEPs) are particularly suited for communication and control applications, and efforts are currently being made to bring BCI technology into daily life. To achieve this aim, the final system must rely on wearable, portable, and low-cost instrumentation. In exploiting SSVEPs, a flickering visual stimulus with fixed frequencies is required. Thus, in considering daily-life constraints, the possibility to provide visual stimuli by means of smart glasses was explored in this study. Moreover, to detect the elicited potentials, a commercial device for electroencephalography (EEG) was considered. This consists of a single differential channel with dry electrodes (no conductive gel), thus achieving the utmost wearability and portability. In such a BCI, the user can interact with the smart glasses by merely staring at icons appearing on the display. Upon this simple principle, a user-friendly, low-cost BCI was built by integrating extended reality (XR) glasses with a commercially available EEG device. The functionality of this wearable XR-BCI was examined with an experimental campaign involving 20 subjects. The classification accuracy was between 80%-95% on average depending on the stimulation time. Given these results, the system can be used as a human-machine interface for industrial inspection but also for rehabilitation in ADHD and autism.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37486136/",
+    "doi": "10.3791/65007",
+    "source": "pubmed",
+    "year": 2023,
+    "published_date": "2023-01-01",
+    "citation_count": null,
+    "text_hash": "055014cbccc97afa8c805c69131f7fa9",
+    "index": 220
+  },
+  {
+    "id": "pubmed_23573251",
+    "title": "Non-invasive brain-to-brain interface (BBI): establishing functional links between two brains.",
+    "authors": [
+      "Seung-Schik Yoo",
+      "Hyungmin Kim",
+      "Emmanuel Filandrianos",
+      "Seyed Javid Taghados",
+      "Shinsuk Park"
+    ],
+    "abstract": "Transcranial focused ultrasound (FUS) is capable of modulating the neural activity of specific brain regions, with a potential role as a non-invasive computer-to-brain interface (CBI). In conjunction with the use of brain-to-computer interface (BCI) techniques that translate brain function to generate computer commands, we investigated the feasibility of using the FUS-based CBI to non-invasively establish a functional link between the brains of different species (i.e. human and Sprague-Dawley rat), thus creating a brain-to-brain interface (BBI). The implementation was aimed to non-invasively translate the human volunteer's intention to stimulate a rat's brain motor area that is responsible for the tail movement. The volunteer initiated the intention by looking at a strobe light flicker on a computer display, and the degree of synchronization in the electroencephalographic steady-state-visual-evoked-potentials (SSVEP) with respect to the strobe frequency was analyzed using a computer. Increased signal amplitude in the SSVEP, indicating the volunteer's intention, triggered the delivery of a burst-mode FUS (350 kHz ultrasound frequency, tone burst duration of 0.5 ms, pulse repetition frequency of 1 kHz, given for 300 msec duration) to excite the motor area of an anesthetized rat transcranially. The successful excitation subsequently elicited the tail movement, which was detected by a motion sensor. The interface was achieved at 94.0±3.0% accuracy, with a time delay of 1.59±1.07 sec from the thought-initiation to the creation of the tail movement. Our results demonstrate the feasibility of a computer-mediated BBI that links central neural functions between two biological entities, which may confer unexplored opportunities in the study of neuroscience with potential implications for therapeutic applications.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23573251/",
+    "doi": "10.1371/journal.pone.0060410",
+    "source": "pubmed",
+    "year": 2013,
+    "published_date": "2013-01-01",
+    "citation_count": null,
+    "text_hash": "c743308e4be3f3f07660920ba8b4b1fa",
+    "index": 221
+  },
+  {
+    "id": "pubmed_38781061",
+    "title": "SSVEP-DAN: Cross-Domain Data Alignment for SSVEP-Based Brain-Computer Interfaces.",
+    "authors": [
+      "Sung-Yu Chen",
+      "Chi-Min Chang",
+      "Kuan-Jung Chiang",
+      "Chun-Shu Wei"
+    ],
+    "abstract": "Steady-state visual-evoked potential (SSVEP)-based brain-computer interfaces (BCIs) offer a non-invasive means of communication through high-speed speller systems. However, their efficiency is highly dependent on individual training data acquired during time-consuming calibration sessions. To address the challenge of data insufficiency in SSVEP-based BCIs, we introduce SSVEP-DAN, the first dedicated neural network model designed to align SSVEP data across different domains, encompassing various sessions, subjects, or devices. Our experimental results demonstrate the ability of SSVEP-DAN to transform existing source SSVEP data into supplementary calibration data. This results in a significant improvement in SSVEP decoding accuracy while reducing the calibration time. We envision SSVEP-DAN playing a crucial role in future applications of high-performance SSVEP-based BCIs. The source code for this work is available at: https://github.com/CECNL/SSVEP-DAN.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38781061/",
+    "doi": "10.1109/TNSRE.2024.3404432",
+    "source": "pubmed",
+    "year": 2024,
+    "published_date": "2024-01-01",
+    "citation_count": null,
+    "text_hash": "5e67a6fcbc1cde8b2d09aa1e4c03bd4d",
+    "index": 222
+  },
+  {
+    "id": "pubmed_37452047",
+    "title": "Conformal in-ear bioelectronics for visual and auditory brain-computer interfaces.",
+    "authors": [
+      "Zhouheng Wang",
+      "Nanlin Shi",
+      "Yingchao Zhang",
+      "Ning Zheng",
+      "Haicheng Li",
+      "Yang Jiao",
+      "Jiahui Cheng",
+      "Yutong Wang",
+      "Xiaoqing Zhang",
+      "Ying Chen",
+      "Yihao Chen",
+      "Heling Wang",
+      "Tao Xie",
+      "Yijun Wang",
+      "Yinji Ma",
+      "Xiaorong Gao",
+      "Xue Feng"
+    ],
+    "abstract": "Brain-computer interfaces (BCIs) have attracted considerable attention in motor and language rehabilitation. Most devices use cap-based non-invasive, headband-based commercial products or microneedle-based invasive approaches, which are constrained for inconvenience, limited applications, inflammation risks and even irreversible damage to soft tissues. Here, we propose in-ear visual and auditory BCIs based on in-ear bioelectronics, named as SpiralE, which can adaptively expand and spiral along the auditory meatus under electrothermal actuation to ensure conformal contact. Participants achieve offline accuracies of 95% in 9-target steady state visual evoked potential (SSVEP) BCI classification and type target phrases successfully in a calibration-free 40-target online SSVEP speller experiment. Interestingly, in-ear SSVEPs exhibit significant 2",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37452047/",
+    "doi": "10.1038/s41467-023-39814-6",
+    "source": "pubmed",
+    "year": 2023,
+    "published_date": "2023-01-01",
+    "citation_count": null,
+    "text_hash": "92efa52726f1806aad763fb2160c526c",
+    "index": 223
+  },
+  {
+    "id": "pubmed_31214009",
+    "title": "Quadcopter Flight Control Using a Non-invasive Multi-Modal Brain Computer Interface.",
+    "authors": [
+      "Xu Duan",
+      "Songyun Xie",
+      "Xinzhou Xie",
+      "Ya Meng",
+      "Zhao Xu"
+    ],
+    "abstract": "Brain-Computer Interfaces (BCIs) translate neuronal information into commands to control external software or hardware, which can improve the quality of life for both healthy and disabled individuals. Here, a multi-modal BCI which combines motor imagery (MI) and steady-state visual evoked potential (SSVEP) is proposed to achieve stable control of a quadcopter in three-dimensional physical space. The complete information common spatial pattern (CICSP) method is used to extract two MI features to control the quadcopter to fly left-forward and right-forward, and canonical correlation analysis (CCA) is employed to perform the SSVEP classification for rise and fall. Eye blinking is designed to switch these two modes while hovering. Real-time feedback is provided to subjects by a global camera. Two flight tasks were conducted in physical space in order to certify the reliability of the BCI system. Subjects were asked to control the quadcopter to fly forward along the zig-zag pattern to pass through a gate in the relatively simple task. For the other complex task, the quadcopter was controlled to pass through two gates successively according to an S-shaped route. The performance of the BCI system is quantified using suitable metrics and subjects are able to acquire 86.5% accuracy for the complicated flight task. It is demonstrated that the multi-modal BCI has the ability to increase the accuracy rate, reduce the task burden, and improve the performance of the BCI system in the real world.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31214009/",
+    "doi": "10.3389/fnbot.2019.00023",
+    "source": "pubmed",
+    "year": 2019,
+    "published_date": "2019-01-01",
+    "citation_count": null,
+    "text_hash": "c7e791df03b3faeec7be2c233f7b146d",
+    "index": 224
+  },
+  {
+    "id": "pubmed_36550974",
+    "title": "A Review of Brain Activity and EEG-Based Brain-Computer Interfaces for Rehabilitation Application.",
+    "authors": [
+      "Mostafa Orban",
+      "Mahmoud Elsamanty",
+      "Kai Guo",
+      "Senhao Zhang",
+      "Hongbo Yang"
+    ],
+    "abstract": "Patients with severe CNS injuries struggle primarily with their sensorimotor function and communication with the outside world. There is an urgent need for advanced neural rehabilitation and intelligent interaction technology to provide help for patients with nerve injuries. Recent studies have established the brain-computer interface (BCI) in order to provide patients with appropriate interaction methods or more intelligent rehabilitation training. This paper reviews the most recent research on brain-computer-interface-based non-invasive rehabilitation systems. Various endogenous and exogenous methods, advantages, limitations, and challenges are discussed and proposed. In addition, the paper discusses the communication between the various brain-computer interface modes used between severely paralyzed and locked patients and the surrounding environment, particularly the brain-computer interaction system utilizing exogenous (induced) EEG signals (such as P300 and SSVEP). This discussion reveals with an examination of the interface for collecting EEG signals, EEG components, and signal postprocessing. Furthermore, the paper describes the development of natural interaction strategies, with a focus on signal acquisition, data processing, pattern recognition algorithms, and control techniques.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36550974/",
+    "doi": "10.3390/bioengineering9120768",
+    "source": "pubmed",
+    "year": 2022,
+    "published_date": "2022-01-01",
+    "citation_count": null,
+    "text_hash": "c5aa6e6ba2e8594bc07b436422e66297",
+    "index": 225
+  },
+  {
+    "id": "pubmed_37792662",
+    "title": "A High-Rate Hybrid BCI System Based on High-Frequency SSVEP and sEMG.",
+    "authors": [
+      "Hongyan Cui",
+      "Xinyi Chi",
+      "Lei Wang",
+      "Xiaogang Chen"
+    ],
+    "abstract": "Recently, various biosignals have been combined with electroencephalography (EEG) to build hybrid brain-computer interface (BCI) systems to improve system performance. Since steady-state visual evoked potential (SSVEP) and surface electromyography (sEMG) are easy-to-use, non-invasive techniques, and have high signal-to-noise ratio (SNR), hybrid BCI systems combining SSVEP and sEMG have received much attention in the BCI literature. However, most existing studies regarding hybrid BCIs based on SSVEP and sEMG adopt low-frequency visual stimuli to induce SSVEPs. The comfort of these systems needs further improvement to meet the practical application requirements. The present study realized a novel hybrid BCI combining high-frequency SSVEP and sEMG signals for spelling applications. EEG and sEMG were obtained simultaneously from the scalp and skin surface of subjects, respectively. These two types of signals were analyzed independently and then combined to determine the target stimulus. Our online results demonstrated that the developed hybrid BCI yielded a mean accuracy of 88.07 ± 1.43% and ITR of 159.12 ± 4.31 bits/min. These results exhibited the feasibility and effectiveness of fusing high-frequency SSVEP and sEMG towards improving the total BCI system performance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37792662/",
+    "doi": "10.1109/JBHI.2023.3321722",
+    "source": "pubmed",
+    "year": 2023,
+    "published_date": "2023-01-01",
+    "citation_count": null,
+    "text_hash": "345843cd02445276dc7fe27d63c530bd",
+    "index": 226
+  },
+  {
+    "id": "pubmed_28790910",
+    "title": "Hybrid Brain-Computer Interface Techniques for Improved Classification Accuracy and Increased Number of Commands: A Review.",
+    "authors": [
+      "Keum-Shik Hong",
+      "Muhammad Jawad Khan"
+    ],
+    "abstract": "In this article, non-invasive hybrid brain-computer interface (hBCI) technologies for improving classification accuracy and increasing the number of commands are reviewed. Hybridization combining more than two modalities is a new trend in brain imaging and prosthesis control. Electroencephalography (EEG), due to its easy use and fast temporal resolution, is most widely utilized in combination with other brain/non-brain signal acquisition modalities, for instance, functional near infrared spectroscopy (fNIRS), electromyography (EMG), electrooculography (EOG), and eye tracker. Three main purposes of hybridization are to increase the number of control commands, improve classification accuracy and reduce the signal detection time. Currently, such combinations of EEG + fNIRS and EEG + EOG are most commonly employed. Four principal components (i.e., hardware, paradigm, classifiers, and features) relevant to accuracy improvement are discussed. In the case of brain signals, motor imagination/movement tasks are combined with cognitive tasks to increase active brain-computer interface (BCI) accuracy. Active and reactive tasks sometimes are combined: motor imagination with steady-state evoked visual potentials (SSVEP) and motor imagination with P300. In the case of reactive tasks, SSVEP is most widely combined with P300 to increase the number of commands. Passive BCIs, however, are rare. After discussing the hardware and strategies involved in the development of hBCI, the second part examines the approaches used to increase the number of control commands and to enhance classification accuracy. The future prospects and the extension of hBCI in real-time applications for daily life scenarios are provided.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28790910/",
+    "doi": "10.3389/fnbot.2017.00035",
+    "source": "pubmed",
+    "year": 2017,
+    "published_date": "2017-01-01",
+    "citation_count": null,
+    "text_hash": "2c2d32634baffc27c0054f3cc87f2ae3",
+    "index": 227
+  },
+  {
+    "id": "pubmed_35731756",
+    "title": "SSVEP-Based Brain Computer Interface Controlled Soft Robotic Glove for Post-Stroke Hand Function Rehabilitation.",
+    "authors": [
+      "Ning Guo",
+      "Xiaojun Wang",
+      "Dehao Duanmu",
+      "Xin Huang",
+      "Xiaodong Li",
+      "Yunli Fan",
+      "Hailan Li",
+      "Yongquan Liu",
+      "Eric Hiu Kwong Yeung",
+      "Michael Kai Tsun To",
+      "Jianxiong Gu",
+      "Feng Wan",
+      "Yong Hu"
+    ],
+    "abstract": "Soft robotic glove with brain computer interfaces (BCI) control has been used for post-stroke hand function rehabilitation. Motor imagery (MI) based BCI with robotic aided devices has been demonstrated as an effective neural rehabilitation tool to improve post-stroke hand function. It is necessary for a user of MI-BCI to receive a long time training, while the user usually suffers unsuccessful and unsatisfying results in the beginning. To propose another non-invasive BCI paradigm rather than MI-BCI, steady-state visually evoked potentials (SSVEP) based BCI was proposed as user intension detection to trigger the soft robotic glove for post-stroke hand function rehabilitation. Thirty post-stroke patients with impaired hand function were randomly and equally divided into three groups to receive conventional, robotic, and BCI-robotic therapy in this randomized control trial (RCT). Clinical assessment of Fugl-Meyer Motor Assessment of Upper Limb (FMA-UL), Wolf Motor Function Test (WMFT) and Modified Ashworth Scale (MAS) were performed at pre-training, post-training and three months follow-up. In comparing to other groups, The BCI-robotic group showed significant improvement after training in FMA full score (10.05 ± 8.03, p = 0.001), FMA shoulder/elbow (6.2 ± 5.94, p = 0.0004) and FMA wrist/hand (4.3 ± 2.83, p = 0.007), and WMFT (5.1 ± 5.53, p = 0.037). The improvement of FMA was significantly correlated with BCI accuracy (r = 0.714, p = 0.032). Recovery of hand function after rehabilitation of SSVEP-BCI controlled soft robotic glove showed better result than solely robotic glove rehabilitation, equivalent efficacy as results from previous reported MI-BCI robotic hand rehabilitation. It proved the feasibility of SSVEP-BCI controlled soft robotic glove in post-stroke hand function rehabilitation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35731756/",
+    "doi": "10.1109/TNSRE.2022.3185262",
+    "source": "pubmed",
+    "year": 2022,
+    "published_date": "2022-01-01",
+    "citation_count": null,
+    "text_hash": "438f7605604368928b19e2b4b76c0598",
+    "index": 228
+  },
+  {
+    "id": "pubmed_37046941",
+    "title": "Effects of Background Music on Mental Fatigue in Steady-State Visually Evoked Potential-Based BCIs.",
+    "authors": [
+      "Shouwei Gao",
+      "Kang Zhou",
+      "Jun Zhang",
+      "Yi Cheng",
+      "Shujun Mao"
+    ],
+    "abstract": "As a widely used brain-computer interface (BCI) paradigm, steady-state visually evoked potential (SSVEP)-based BCIs have the advantages of high information transfer rates, high tolerance for artifacts, and robust performance across diverse users. However, the incidence of mental fatigue from prolonged, repetitive stimulation is a critical issue for SSVEP-based BCIs. Music is often used as a convenient, non-invasive means of relieving mental fatigue. This study investigates the compensatory effect of music on mental fatigue through the introduction of different modes of background music in long-duration, SSVEP-BCI tasks. Changes in electroencephalography power index, SSVEP amplitude, and signal-to-noise ratio were used to assess participants' mental fatigue. The study's results show that the introduction of exciting background music to the SSVEP-BCI task was effective in relieving participants' mental fatigue. In addition, for continuous SSVEP-BCI tasks, a combination of musical modes that used soothing background music during the rest interval phase proved more effective in reducing users' mental fatigue. This suggests that background music can provide a practical solution for long-duration SSVEP-based BCI implementation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37046941/",
+    "doi": "10.3390/healthcare11071014",
+    "source": "pubmed",
+    "year": 2023,
+    "published_date": "2023-01-01",
+    "citation_count": null,
+    "text_hash": "4d02a361705f85a762693c54a06d6cab",
+    "index": 229
+  },
+  {
+    "id": "pubmed_34899220",
+    "title": "Artificial Intelligence Algorithms in Visual Evoked Potential-Based Brain-Computer Interfaces for Motor Rehabilitation Applications: Systematic Review and Future Directions.",
+    "authors": [
+      "Josefina Gutierrez-Martinez",
+      "Jorge A Mercado-Gutierrez",
+      "Blanca E Carvajal-Gámez",
+      "Jorge L Rosas-Trigueros",
+      "Adrian E Contreras-Martinez"
+    ],
+    "abstract": "Brain-Computer Interface (BCI) is a technology that uses electroencephalographic (EEG) signals to control external devices, such as Functional Electrical Stimulation (FES). Visual BCI paradigms based on P300 and Steady State Visually Evoked potentials (SSVEP) have shown high potential for clinical purposes. Numerous studies have been published on P300- and SSVEP-based non-invasive BCIs, but many of them present two shortcomings: (1) they are not aimed for motor rehabilitation applications, and (2) they do not report in detail the artificial intelligence (AI) methods used for classification, or their performance metrics. To address this gap, in this paper the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) methodology was applied to prepare a systematic literature review (SLR). Papers older than 10 years, repeated or not related to a motor rehabilitation application, were excluded. Of all the studies, 51.02% referred to theoretical analysis of classification algorithms. Of the remaining, 28.48% were for spelling, 12.73% for diverse applications (control of wheelchair or home appliances), and only 7.77% were focused on motor rehabilitation. After the inclusion and exclusion criteria were applied and quality screening was performed, 34 articles were selected. Of them, 26.47% used the P300 and 55.8% the SSVEP signal. Five applications categories were established: Rehabilitation Systems (17.64%), Virtual Reality environments (23.52%), FES (17.64%), Orthosis (29.41%), and Prosthesis (11.76%). Of all the works, only four performed tests with patients. The most reported machine learning (ML) algorithms used for classification were linear discriminant analysis (LDA) (48.64%) and support vector machine (16.21%), while only one study used a deep learning algorithm: a Convolutional Neural Network (CNN). The reported accuracy ranged from 38.02 to 100%, and the Information Transfer Rate from 1.55 to 49.25 bits per minute. While LDA is still the most used AI algorithm, CNN has shown promising results, but due to their high technical implementation requirements, many researchers do not justify its implementation as worthwile. To achieve quick and accurate online BCIs for motor rehabilitation applications, future works on SSVEP-, P300-based and hybrid BCIs should focus on optimizing the visual stimulation module and the training stage of ML and DL algorithms.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34899220/",
+    "doi": "10.3389/fnhum.2021.772837",
+    "source": "pubmed",
+    "year": 2021,
+    "published_date": "2021-01-01",
+    "citation_count": null,
+    "text_hash": "78aa96aee0d6606224bea06feee80d22",
+    "index": 230
+  },
+  {
+    "id": "pubmed_21555847",
+    "title": "SSVEP-based Bremen-BCI interface--boosting information transfer rates.",
+    "authors": [
+      "Ivan Volosyak"
+    ],
+    "abstract": "In recent years, there has been increased interest in using steady-state visual evoked potentials (SSVEP) in brain-computer interface (BCI) systems; the SSVEP approach currently provides the fastest and most reliable communication paradigm for the implementation of a non-invasive BCI. This paper presents recent developments in the signal processing of the SSVEP-based Bremen BCI system, which allowed one of the subjects in an online experiment to reach a peak information transfer rate (ITR) of 124 bit min(-1). It is worth mentioning that this ITR value is higher than all values previously published in the literature for any kind of BCI paradigm.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21555847/",
+    "doi": "10.1088/1741-2560/8/3/036020",
+    "source": "pubmed",
+    "year": 2011,
+    "published_date": "2011-01-01",
+    "citation_count": null,
+    "text_hash": "e0146ee01ea27963ce3326ba73a7efe4",
+    "index": 231
+  },
+  {
+    "id": "pubmed_39796947",
+    "title": "A Bibliometric Review of Brain-Computer Interfaces in Motor Imagery and Steady-State Visually Evoked Potentials for Applications in Rehabilitation and Robotics.",
+    "authors": [
+      "Nayibe Chio",
+      "Eduardo Quiles-Cucarella"
+    ],
+    "abstract": "In this paper, a bibliometric review is conducted on brain-computer interfaces (BCI) in non-invasive paradigms like motor imagery (MI) and steady-state visually evoked potentials (SSVEP) for applications in rehabilitation and robotics. An exploratory and descriptive approach is used in the analysis. Computational tools such as the biblioshiny application for R-Bibliometrix and VOSViewer are employed to generate data on years, sources, authors, affiliation, country, documents, co-author, co-citation, and co-occurrence. This article allows for the identification of different bibliometric indicators such as the research process, evolution, visibility, volume, influence, impact, and production in the field of brain-computer interfaces for MI and SSVEP paradigms in rehabilitation and robotics applications from 2000 to August 2024.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39796947/",
+    "doi": "10.3390/s25010154",
+    "source": "pubmed",
+    "year": 2024,
+    "published_date": "2024-01-01",
+    "citation_count": null,
+    "text_hash": "8f16e4fba6f2614c1502475d75b7b0a7",
+    "index": 232
   }
 ]
